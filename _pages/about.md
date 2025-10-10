@@ -17,7 +17,7 @@ redirect_from:
 /* === Announcement Box Container === */
 .hiring-box {
   position: absolute;;
-  top: 136px;
+  top: 133px;
   right: 20px;
   width: 440px;
   background: rgba(255, 255, 255, 0.85);

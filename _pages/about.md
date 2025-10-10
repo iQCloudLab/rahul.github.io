@@ -17,7 +17,7 @@ redirect_from:
 /* === Announcement Box Container === */
 .hiring-box {
   position: fixed;
-  top: 150px;
+  top: 130px;
   right: 40px;
   width: 350px;
   background: rgba(255, 255, 255, 0.85);
@@ -242,11 +242,11 @@ redirect_from:
 <div class="hiring-box">
   <div class="hiring-header">🎓 Student Hiring</div>
   <div class="hiring-content">
-    <p><strong>QEdge Research Lab</strong> is seeking motivated students for research in:</p>
+    <p><strong>iQCloudLab</strong> is seeking motivated students for research in:</p>
     <ul style="list-style: none; padding: 0; margin: 0; text-align: right;">
-      <li>🔹 Distributed & Edge Computing</li>
-      <li>🔹 Quantum Cloud Systems</li>
-      <li>🔹 AI-driven IoT Applications</li>
+      <li>🔹 Quantum Cloud & Edge Computing</li>
+      <li>🔹 Agentic-based (LLM) Scheduling </li>
+      <li>🔹 AI-driven IoT Applications </li>
     </ul>
     <p>Join our innovation-driven environment to explore next-gen computing!</p>    
   </div>

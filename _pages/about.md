@@ -16,7 +16,7 @@ redirect_from:
 
 /* === Announcement Box Container === */
 .hiring-box {
-  position: relative;
+  position: absolute;;
   top: 130px;
   right: 40px;
   width: 380px;
@@ -244,7 +244,7 @@ redirect_from:
   <div class="hiring-content">
     <p> I'm seeking motivated students for research in:</p>
     <ul style="list-style: none; padding: 0; margin: 0; text-align: center;">
-      <li>🔹 Quantum Cloud & Edge Computing</li>
+      <li>🔹 Agentic-based (LLM) Scheduling for Quantum Cloud & Edge Computing</li>
       <li>🔹 Agentic-based (LLM) Scheduling </li>
       <li>🔹 AI-driven IoT Applications </li>
     </ul>

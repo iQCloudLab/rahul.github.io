@@ -10,8 +10,8 @@ author_profile: true
 .publications-container {
   background: #ffffffcc;
   backdrop-filter: blur(12px);
-  width: 90%;
-  max-width: 800px;
+  width: 110%;
+  max-width: 900px;
   margin-top: 60px;
   border-radius: 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);

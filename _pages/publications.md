@@ -4,109 +4,186 @@ title:
 permalink: /publications/
 author_profile: true
 ---
-<h1 style="font-size:22px">Refereed Journals:</h1>
-<ol>
-   <li>X. Jin, D. Chieng, <b>P. Kar</b>, CF Kwong, Y. Li, and Y. Wang, "Large-Scale Continuous Monitoring of GHG Gas with Adaptive LoRaWAN", <i>Sensors</i> (Accepted on 11th August 2025) <a href="https://www.sciencedirect.com/science/article/pii/S2096720924000587/pdfft?md5=99534b5f10b0bb834683323b2b11746c&pid=1-s2.0-S2096720924000587-main.pdf" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-   <li>F. Sun, P. Wang, Y. Zhang, and <b>P. Kar</b>, “βFSCM: An Enhanced Food Supply Chain Management System Using Hybrid Blockchain and Recommender Systems”, <i>Blockchain: Research and Applications (Elsevier)</i>, vol. 6, no. 1, March 2025, DoI: 10.1016/j.bcra.2024.100245 <a href="https://www.sciencedirect.com/science/article/pii/S2096720924000587/pdfft?md5=99534b5f10b0bb834683323b2b11746c&pid=1-s2.0-S2096720924000587-main.pdf" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-   <li>Q. Mao, J. Li, H. Zhou, <b>P. Kar</b>, and A. G. Bellotti, “ALDII: Adaptive Learning-based Document Image Inpainting to Enhance the Handwritten Chinese Character Legibility of Human and Machine”, <i>Neurocomputing (Elsevier)</i>, vol. 616, February 2025, DoI: 10.1016/j.neucom.2024.128897 <a href="https://www.sciencedirect.com/science/article/pii/S0925231224016680/pdfft?md5=9767be111130f15d9b99c9534071ae44&pid=1-s2.0-S0925231224016680-main.pdf" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b> and Z. Wang, “Identifying COVID-19 Fake News on Social Networks Using Deep Learning: You will not know what happens next!”, <i>WSEAS Transactions on Business and Economics</i>, vol. 21, pp. 1973-1987, October 2024, DoI: 10.37394/23207.2024.21.160 <a href="https://wseas.com/journals/bae/2024/d285107-041(2024).pdf" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>C. Yang, C. F. Kwong, D. Chieng, <b>P. Kar</b>, K. L. A. Yau, and Y. Chen, “Navigating the Road Ahead: A Comprehensive Survey of Radio Resource Allocation for Vehicle Platooning in C-V2X Communications”, <i>IEEE Communications Surveys and Tutorials</i>, vol. 14, no. 8, June 2024, DoI: 10.1109/COMST.2024.3440033 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10628046" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, L. Chen, W. Sheng, C. F. Kwong, and D. Chieng, “Advancing NDN Security: Efficient Identification of Cache Pollution Attacks through Rank Comparison”, <i>Internet of Things (Elsevier)</i>, vol. 26, July 2024, DoI: 10.1016/j.iot.2024.101142 <a href="https://doi.org/10.1016/j.iot.2024.101142" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>C. F. Kwong, C. Shi, Q. Liu, S. Yang, D. Chieng, and <b>P. Kar</b>, “Autonomous Handover Parameter Optimisation for 5G Cellular Networks using Deep Deterministic Policy Gradient”, <i>Expert Systems With Applications(Elsevier)</i>, vol. 246, July 2024 DoI: 10.1016/j.eswa.2023.122871 <a href="https://doi.org/10.1016/j.eswa.2023.122871" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>L. Hu and <b>P. Kar</b>, “Design of a Blockchain-based Secure Health Monitoring System Using Decentralized Machine Learning Technique”, <i>IEEE Communications Magazine</i>, vol. 62, no. 1, pp. 46 – 52, January 2024 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10239123" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b> and S. Feng, “Intelligent Traffic Prediction by Combining Weather and Road Traffic Condition Information: a deep learning-based approach”, <i>International Journal of Intelligent Transportation Systems Research (Springer)</i>, July 2023, DoI: 10.1007/s13177-023-00362-4 <a href="https://www.springerprofessional.de/en/intelligent-traffic-prediction-by-combining-weather-and-road-tra/25872976" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>X. Liang and <b>P. Kar</b>, “Robust and Secure File Transmission Through Video Streaming Using Steganography and Blockchain”, <i>International Journal of Information and Computer Security (Inderscience)</i>, vol. 24, no. 3-4, pp. 258-283, September 2024, DoI: 10.1504/IJICS.2024.141610. <a href="https://www.inderscienceonline.com/doi/pdf/10.1504/IJICS.2024.141610" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, R. Chen, and Y. Qian, “An Efficient Producer Mobility Management Technique for Real-time Communication in NDN-based Remote Health Monitoring Systems”, <i>Smart Health (Elsevier)</i>, vol. 26, December 2022, DoI: 10.1016/j.smhl.2022.100309 <a href="https://pdf.sciencedirectassets.com/313792/AIP/1-s2.0-S2352648322000435/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIDhY%2FsOOJTV7ASpWEuGetMG3RlPIOMitjlxPmI9tTOgeAiAXTHYFY%2Fd0%2FmOaUjdG2JQdzu8x5CaH9%2Fd03TDl3yVRgSrSBAhyEAUaDDA1OTAwMzU0Njg2NSIMTzAXw2j1AKLvTYwtKq8ENDPAHUPYx%2FonvxpupZcX8eGvM%2BXdvNYL1JSBf8K1atQUPHLgPmCOUMoC2T5WJVpALt%2F6SpgAzt7wbg5nT4tkteUn2Mbvwr8rlrby5rvl4VTIUmsWZCxGToxzyJOGz7IczGmPiK1m6ivvuaACT5aWUtyy9BBJ%2BM%2Bqr9zy2dwEQfpgS45rXYtOpxAbQ0%2BGiiMVFNDJR0UBWwiz%2Fkc2Hz31CkzSsuMnWJCw0vr52%2BcSA8Uwhm%2Bi00JUnuI1WLt2c%2FskYMH5P8hlEWapPO713Uji83wMkxzsz8rDOrTXbyky9PN1ltGb6H2bGtYtwHGtIk1qEkPGgovHv7zHKgqJlee1VBvWryJNVGs%2BxN0v8MtYNIxEWp4u4s3nYWUj%2BgBMvRMnsDCFUhSFipLB%2B4LiAcd7YSZNyWVrsfJxs1bbs0vWwvPKfl0jrwERXzZe%2Fu3OQYlBID%2FxVXhitgsGHp0cIZIn3ZzKPYPo9ClXOgQZaGWa3Mud41%2FD4O49%2F0y7QD5FWiLdlBcaNeiFvTTkEDKqg9UdI%2BgX0aVPZaaEWfRjrtfVk%2BCU9BNCR4ikmWQ%2BY%2FlqEqXYZI06p%2FtFrywHPfR7BExwr4HTcbtEdCsDpzsiYI5OE7Xh%2BN3rFCdtuFahyav1qqpRdf%2BuzQo23MBCYrsMyNOIYp2dIEvg4J5ZNC4RSf2kSqkvLqHOTcg8S9iWjUjuifVX3NwzBHwfBk6ku9BUgrREeHDE0yr2eZoLOTAyolyCTzDi%2B4yYBjqqAcdurB8vDYjdTcYdg77JuajHAn6cwmmANnhx8hDnUBiZ2BXMoAzLPleu90vvduUZ5emDfkB2A8PBAvQmG2Q8PFok5JYm9TX8kJLMujYseCg%2Bs3Nb0h%2B%2F6i2ViZLq73A794s8t9agluB09b2SzrNZM9MRoEiNvFVsomZwKuTtMJY%2BGDK0Dr8XlxtgAMuAwvku8atld8Tn4FMLPz8k7Tk%2BcbPBlmWv4ihOVqaJ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220822T083646Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYTZSUHJEF%2F20220822%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4e5ac9dcd26bf0640eb2a63654aaa83458c14d2c605c476364a057be0e17a722&hash=6469dc96d7755958624eaa3fe3670f22d67020d0361999341f4f2d1f701b7b0a&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2352648322000435&tid=spdf-f906a9d8-e4aa-40f2-9ac0-850981cdbe4b&sid=4ad8dbd07e38b24f374974453531efa237d1gxrqa&type=client&ua=4d55000e565a56055100&rr=73ea485e2e419432" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, K. Chen, J. Shi, “DMACN: A Dynamic Multi-Attribute Caching Mechanism for NDN-Based Remote Health Monitoring System”, <i>IEEE Transactions on Computers</i>, vol. 72, no. 5, pp. 1301 – 1313, August 2022 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9854159" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, A. Kumar, A. Shareef, K. T. Harn, and S. K. Panda, “An Intelligent Lighting Control System for Individual Visual Comfort and Energy Savings in Buildings”, <i>Journal of Reliable Intelligent Environments (Springer)</i> August 2022, DoI: 10.1007/s40860-022-00189-y <a href="https://link.springer.com/epdf/10.1007/s40860-022-00189-y?sharing_token=msmzJG2oIv6Gd06vrrs3vve4RwlQNchNByi7wbcMAY4qn77ERJ2XKkPwmcctXJKZ4LW_dNu3UMagf3UfUK4hCvuL4kW3-1Dqgg4Nc6fX764PCCD6crHI_h3iVmApPIPeNozkJpSKJK7_7FS80li9LAYD9aipA-y0F8pw2yAMrlM=" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>D. Li and <b>P. Kar</b>, “B-Spot: Blockchain and Steganography based Robust and Secure Photo Transmission Mechanism”, <i>Journal of Mobile Multimedia</i>, vol. 18, no. 6, pp. 1677–1708, July 2022 <a href="https://journals.riverpublishers.com/index.php/JMM/article/view/12255/14603" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, Z. Xue, S. P. Ardakani, and C. F. Kwong, Are Fake Images Bothering You on Social Network? Let Us Detect Them Using Recurrent Neural Network, <i>IEEE Transactions on Computational Social Systems</i>, vol. 10, no. 2, pp. 783 – 794, March 2022 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9743278" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>S. P. Ardakani, C. F. Kwong, <b>P. Kar</b>, Q. Liu, and L. LI, "CNN: a Cluster-based Named Data Routing for Vehicular Networks", <i>IEEE Access</i>, vol. 9, pp. 159036-159047, November 2021 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9627891" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>Q. Liu, CF Kwong, W. Sun, S. Zhou, L. Li, and <b>P Kar</b>, "Reinforcement Learning-Based Joint Self-Optimisation Method for the Fuzzy Logic Handover Algorithm in 5G HetNets", <i>Neural Computing and Applications (Springer)</i>, November 2021, DoI: 10.1007/s00521-021-06673-5 <a href="https://link.springer.com/content/pdf/10.1007/s00521-021-06673-5.pdf" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>P. Zhao, <b>P. Kar</b>, and S. P. Ardakani, “ANTON: Activity Recognition Based Smart Home Control System”, <i>SN Computer Science (Springer)</i>, vol. 2, no. 428, pp. 1-12, August 2021, DoI: 10.1007/s42979-021-00824-0 <a href="https://link.springer.com/content/pdf/10.1007/s42979-021-00824-0.pdf" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>L. Li, C. F. Kwong, Q. Liu, <b>P. Kar</b>, and S. P. Ardakani, “A Novel Cooperative Cache Policy for Wireless Networks”, <i>Wireless Communications and Mobile Computing</i>, vol. 2021, Article ID 5568935, 18 pages, August 2021, DoI:10.1155/2021/5568935 <a href="https://downloads.hindawi.com/journals/wcmc/2021/5568935.pdf" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>S. Misra, S. Goswami, C. Taneja, and <b>P. Kar</b>, “Heterogeneous Polydentate Mobile Chelating Node to Detect Breach in Surveillance Sensor Network”, <i>Security and Privacy (Wiley)</i>, vol. 4, no. 6, pp. e175:1-22, June 2021 <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/spy2.175" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-   <li><b>P. Kar</b>, S. Misra, A. Mandal, H. Wang, "SOS: NDN Based Service-Oriented Game-Theoretic Efficient Security Scheme for IoT Networks", <i>IEEE Transactions on Network and Service Management</i>, vol. 18, no. 3, pp. 3197-3208, Sept. 2021 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9424193" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b> and H. Wang “EZPlugIn: Plug-n-Play Framework for a Heterogeneous IoT Infrastructure for Smart Home,” <i>IEEE Internet of Things Magazine</i>, vol. 4, no. 3, pp. 104-108, September 2021 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9474921" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b> and S. Misra “On the Effects of Transfaulty Sensor Nodes in Stationary Wireless Sensor Network Systems,” <i>IEEE Sensors Journal</i>, vol. 19, no. 13, pp. 5022 – 5029, March 2019 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8656588"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, A. Shareef, A. Kumar, T. H. Koh, B. K. Mallikarjuna, and S. K. Panda, “ReViCEE: A Recommendation based approach for personalized control Visual Comfort & Energy Efficiency in buildings”, <i>Building and Environment (Elsevier)</i>, vol. 152, pp. 135 – 144, April 2019 <a href="https://pdf.sciencedirectassets.com/271434/1-s2.0-S0360132319X00037/1-s2.0-S0360132319300459/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQC6zhfN18YKwJTnB4fkfOsLUDX6zM9t5sA0JR4d2m%2F%2BrAIgJmw%2Fdh2vfAo1bGc%2FGqrMVptl0t%2FCRbKyqpazJXDUja0q%2BgMIKhAEGgwwNTkwMDM1NDY4NjUiDAP72WIjA85UdH72lSrXA2kkjoiTZNzM%2BMMqa6CsQsb1DJwXn705tTCr52ERBzjuZh1wSilDbr%2FGsFau55Ho7wl0LjGeQYvY0xl%2FQBDcTiedd5SEMUEEZ52m3cWesQpmvywIDxTBHBxacOWQ5j4Fhi4iTp%2FAz43htjqSHQFM340P5REDU7OYaef4SAcm8AqlX9OVt%2FI9loHrytsf%2BON1ZsFeVCKakM683NNOeeD%2BPXf8F5Al6k%2FaJAKeVm68gu2gr7plc4kfddS%2FXtfmXzkY2ZOnf2lC0oqIUIDhIgauufNTRfOO8UWIxsy3UKTs7i2McxyiIFU5HkQamfaBaORYpYMBf0y4G9ObWPW2QaYHzSx0uWFkyU6COP8aLF3vxrV0GCJDdQY3gx6fmaGdR5XHgEr0XD1TeHoC8wuQEppTqzfVEUiW2kbHSP87fWu1N24PWo9HAPjJRBa05PiyCMAtXWILMGQtygAHvt6T%2BSfiKErtuhlEQB60kaoJLyw2RlOPVHbTv%2BDZyoZol%2FMFtnlGKNV748Wwni4TNvAfpZzk1M56KTVQl4llW5jMifAvK13EY92vhUfXPJO1%2F8zIdby22HTERmqPfiY4ISy6fonmBQ3SrkeoPn0dk6ATJFQMdobczyLKXOuWPDCF1M%2BSBjqlAXoZtLClZWxXSkX%2BFRMk8kn5uquDTxauB0DV02I%2BSr3mKph3Dg%2B1LSnjxpXN4luV6hpWUofjYFvjbvUlUJcUrwjaB03sGU6UgnYyUS16l4GTuWZtSY9xfo80YfRCp3Ku%2FQwHR4tX%2BxQsR5uWq%2FwAAopvB7vRURRjzXkF82FawSg1DA%2FeAKzgA451kCQecM%2FUWJFwcA8xM9KASrk4YOwEjr4CmBuJEg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220411T091745Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYX7TL4IZB%2F20220411%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b4aff068262d84b06325bc2c02c36b32c6408b1b9c78be9912f402fc45563349&hash=32a214660730748287a5f9ba38a3d7db6562ec3853191aea1edb09e0482f289a&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0360132319300459&tid=spdf-bebe0a1c-50d4-4420-98a7-80b0d78a421d&sid=03dab7f82c96b34b705ab9d28cf3eea6229agxrqa&type=client" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, S. Misra, and M. S. Obaidat, “RILoD: Reduction of Information Loss in a WSN System in the Presence of Dumb Nodes,” <i>IEEE Systems Journal</i>, vol. 13, no. 1, pp. 336 – 344, January 2018. <b>(Received 2020 IEEE Systems Journal Best Paper Award)</b> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8255593" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, A. Roy, S. Misra, and M. S. Obaidat, “On the Effects of Communication Range Shrinkage of Sensor Nodes in Mobile Wireless Sensor Networks Due to Adverse Environmental Conditions,” <i>IEEE Systems Journal</i>, vol. 12, no. 3, pp. 2048-2055, September 2018 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7572950" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>A. Kumar, <b>P. Kar</b>, R. Warrier, A. Kajale, and S. K. Panda, “Implementation of Smart LED Lighting and Efficient Data Management System for Smart Buildings,” <i>Energy Procedia (Elsevier)</i>, vol. 143, pp. 173-178, December 2017 <a href="https://pdf.sciencedirectassets.com/277910/1-s2.0-S1876610217X00404/1-s2.0-S1876610217364317/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQCGMlfXZrtvg4Onem7IObVdxHhqQZ85Q5TrBRp4cu%2FTtgIgJw2gFQFv0Usl2ziscN%2BFxAbaHuhwwOaLZQ8zGYWu4%2Fcq%2BgMIKxAEGgwwNTkwMDM1NDY4NjUiDF96U5XuFnzkH6FlJCrXA4Xy3mW3NrvofATJEWxP73H6TUW0hBKM9XXxEjxIcazqBpQl%2F0Z0nnW3RMTe8nD2aFV5lUkYB3FKdN2HxZ%2FuIqBrM7sQK8T%2FfPwvqYSwJ1%2FKnun%2BQ5LfsvNZKiK%2Fy3YHLvd5aa6rpvutek6ckC%2BXnIZC9e4%2B4CPcRGT4YJ1iDphJRiSt8eZIgOJM4%2FpH1wj9tYergHEw4OWfLgk5BIUHZJf2sgqw6FtC0tTAxGCp0w%2Bf22QcU%2B1Y3H8Fts1YVYMN1wrfSECMFmivaJbHyYuX51owuTZELrU0uHWAtK5UPa%2BVlGeQmjv1Fk8OPzjLczq6RKdv4jeJgXxqC5YGqQRhKifanNVC4wk0lJfxgXuGGlcAek6RDVRkKQBugPl6lMT92ZNXE%2Ff9yaDJRr0nVd8GBCdidaGPloM3EYO3hS9NXbn8st8OPFRsmaijb5XOleR0OFw6aVFc0a8rt9nGyUmoPF1GOXppevLENZNme9LbCMAo553kA%2Fivvevo9IY4eQpU%2F0v9kRyRHhEzWMTDwaSVJ%2BpN6KNcXZpel%2Bwj3kwetJdWAbOVdqG2YvvyVvCBUTbWejblPPQF2rjIE%2BvvvlhJpJpH5%2BkMelEIymmll2k6IakJ2C9PE%2BcHszCk%2Fs%2BSBjqlAYM3iOJx%2FMoeVmh2o1Yf9bCLiFawZvRfpTRGm5aOjO0uBjHA8d%2Fz9hcDOeckeD%2BweZ6PFMpxRFwcQbFBbZixAhPbqah3M%2BUdmMpcZ%2BlEkik1bmWBkyVF72URDNjfIdBZqCINA3KuO7VF1IIxMvpwH74zlRffixzRqObVY4528fiaHYZ1q4%2BzPYQ2Jk3XTQ5DRiE8AZ%2FmSn1J1k1No9dMi%2Fu%2BxuLq6g%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220411T102231Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY25WPOXAY%2F20220411%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7c93bc5c10c6b3b45703614fe9e258ac33c3bfc042e2d2fab1220229c0033e98&hash=fecbd4a87af992c0ee7356113e262fe301f268a4a6ba95decccc1dcfeca0f532&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1876610217364317&tid=spdf-f4fc5331-eb9d-4a05-a8f2-86f5c4db631b&sid=03dab7f82c96b34b705ab9d28cf3eea6229agxrqa&type=client" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>A. Roy, S. Misra, <b>P. Kar</b>, and A. Mondal, “Topology Control for Self-Adaptation in Wireless Sensor Networks with Temporary Connection Impairment,” <i>ACM Transactions on Autonomous and Adaptive Systems</i>, vol. 11, no. 4, pp. 1-34, February 2017 <a href="https://dl.acm.org/doi/pdf/10.1145/2979680" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b> and S. Misra, “Reliable and Efficient Data Acquisition in Wireless Sensor Network in the Presence of Transfaulty Nodes,” <i>IEEE Transactions on Network and Service Management</i>, vol. 13, no. 1, pp. 99-112, January 2016 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7377121" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, A. Roy, and S. Misra, “Connectivity Re-establishment in Self-organizing Sensor Networks with Dumb Nodes,” <i>ACM Transactions on Autonomous and Adaptive Systems</i>, vol. 10, no. 4, pp. 1-30, February 2016 <a href="https://dl.acm.org/doi/pdf/10.1145/2816820" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>A. Roy, <b>P. Kar</b>, S. Misra, and M. S. Obaidat, “D3: Distributed Approach for the Detection of Dumb Nodes in Wireless Sensor Networks,” <i>International Journal of Communication Systems (Wiley)</i>, vol. 30, no. 1, pp. e2913, January 2015 <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/dac.2913" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b> and S. Misra, “Detouring Dynamic Routing Holes in Stationary Wireless Sensor Networks in the Presence of Temporarily Misbehaving Nodes,” <i>International Journal of Communication Systems (Wiley)</i>, vol. 30, no. 4, pp. e3009, June 2015 <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/dac.3009" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>S. Misra, <b>P. Kar</b>, A. Roy, and M. S. Obaidat, “Existence of Dumb Nodes in Stationary Wireless Sensor Network,” <i>Journal of Systems and Software (Elsevier)</i>, vol. 91, pp. 135–146, May 2014 <a href="https://pdf.sciencedirectassets.com/271629/1-s2.0-S0164121214X0004X/1-s2.0-S0164121214000120/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIFq9xwIDfqQX0GrG5i6HihDUcjv92h7aDAwoPLXFkTcJAiEAuoww%2Fq0xIdp32uonRO2nS3h5c5jQdhOdBW41l0oWNfMq%2BgMIKRAEGgwwNTkwMDM1NDY4NjUiDKR5WtS4CfYxPAVWmCrXA2U0bjexKP2Um6tq%2FF325EBR%2F13W4V%2FTSmAVZsuNfchuNA16RSb7ppvTe%2BNTC7BwQiGn%2BChD6v7oucMkKB%2BRsqDoaKNuHZnEAOFippym0jGnrkziPRZm6b%2BG6OLSZz3O5%2Ff5%2Fj5bBDPcIwTK4Q58YOEPIhC5Cc3Q0srZaA%2Bwk1HXHUr3vK2fvyXS8AS%2BYbePHQjTuAr8JS%2FhmB6wqpIIe30192g5TVChgW6xdCxxq0L09UxFhyBonnvtOd8HcahtsK2OAbn43%2Fz95x6Mse7Y%2BaXWyPQw5wHx8vbT3jgxVjcoXF99AQbrGwnvTQx1INeIb9a7%2FigMLDhSa1GcvtkhxcHVgt1Ppk%2B7TSuOWeqPBNNKFgFN%2BZH4RTF4pbIlGmQvhSGj%2B1wzs5DQrn7AzhUsC4OtlSYVqPHrRkpeGY1N4xINK%2FJqESHnyToMTPA8Nzsw4TD%2FxTorDXiUZTNpS99jq74c8s%2Fqd5Tqkr2P1Oy4FNmDKIPp%2FnkrAfDMUGUyZa9KeWWwQRRcdX6zPnovDPVtzSPrQukb3rh9q%2B1IfkGW5hiKZAxJKuzQpd%2FSMBboxKbA56A7MZAvJZK1SYpWV%2FyW75UEOlUU4W8bpuZxqLlr0a32y9ivb2qOuDD9xs%2BSBjqlAbuu7nDVPdkOL2u9DbreQTTzMvR3fC0iXSgf5Pb4AWmQp%2FGCeeooI4BbjJIbQSLIwR8Aq5q068EOl8gOKwAh%2FT7jy3uMZJIIv9vpNeNRmnH7HmEBR2dK2eSTgbtBy4%2FgoPn0uca0jzUmD1r%2B%2B7BUyFZsH33rcxaGkn7yf1xTorWXDwwoMw2jilJ1Hs6jCsF0ZZh7oy%2F5od8UZrsjwIDeRF7E2N3jXg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220411T092730Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY6KZOG542%2F20220411%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=77c99f7145bcb1be939472bb23ebd754d2002133d297071944f8a5e804412c4b&hash=3d6a06a651459a62c424ca2c94f2d10f9d0d9dbdd8e025cbb86464a96f6a3607&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0164121214000120&tid=spdf-7d67025b-562e-4778-ad6b-3ee548bee53d&sid=03dab7f82c96b34b705ab9d28cf3eea6229agxrqa&type=client" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-</ol>
-  <h1 style="font-size:22px">International Conferences / Workshops:</h1>
-  <ol>
-     <li>J. Lai, <b>P. Kar</b>, "Synchronization of Wearable Sensor Data for Vital Sign Monitoring", <i>in Proceedings of the 25th IEEE International Conference on Bio-Informatics and Bio-Engineering (BIBE 2025)</i>, Athens, Greece, 6 - 8 November 2025 (Accepted on 22nd September 2025) <a href="" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-     <li>J. Lai, <b>P. Kar</b>, "A Multistage Signal Quality Framework for Blood Pressure Monitoring Using Photoplethysmography", <i>in Proceedings of the 25th IEEE International Conference on Bio-Informatics and Bio-Engineering (BIBE 2025)</i>, Athens, Greece, 6 - 8 November 2025 (Accepted on 22nd September 2025) <a href="" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-      <li>W. Lyu, <b>P. Kar</b>, S. Welsen, and A. G. Manzanares, “ProLoC: An Efficient Probability-Based Forwarding Mechanism Considering Load Factor for Congestion Control in Named Data Networking”, <i>in proceedings of the IEEE International Conference on Internet of Things (iThings 2025)</i>, Zhengzhou, Henan, China, October 30 - November 02, 2025 (Accepted on 13th September 2025) <a href="" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-     <li>N. Chen, CF Kwong, D. Chieng, <b>P. Kar</b>, Z. Chu, and P. Fan, "Efficient and Secure Data Sharing in Scalable C-V2X with Dynamic Sharding Blockchain and Zero-Knowledge Proofs", <i>in Proceedings of the IEEE International Conference on Communications (ICC 2025)</i>, Montreal, Canada, 8 - 12 June 2025 (Accepted on 18th January 2025) <a href="" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-     <li>Y. Zhu and <b>P. Kar</b>, “An Accurate Salary Estimation Scheme by Using BigData Technique”, <i>in proceedings of the 11th IEEE/ACM International Conference on Big Data Computing, Applications, and Technologies (BDCAT 2024)</i>, Sharjah, United Arab Emirates, 16 - 19 December 2024 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10946901" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-    <li>N. Chen, C. F. Kwong, D. Chieng, and <b>P. Kar</b>, “Efficient Data Processing in C-V2X with Dynamic Sharding Blockchain and Zero-Knowledge Proofs”, <i>in Proceedings of International Conference on Internet of Things (ICIoT 2024)</i>, Ningbo, China, 11-12 October 2024 <a href="https://digital-library.theiet.org/doi/pdf/10.1049/icp.2024.3953?download=true" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-    <li><b>P. Kar</b> and P. Ingkasit, “Development of a User-Friendly and Efficient Control System for Smart Home”, <i>in Proceedings of IEEE International Conference on Internet of Things (iThings 2024)</i>, Copenhagen, Denmark, 19 – 22 August 2024 (Accepted on 7th June 2024) <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10731731" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-    <li>Z. Bi and <b>P. Kar</b>, “BUMS: A Novel Balanced Multi-model Machine Learning System for Real-Time Blood Glucose Prediction and Abnormal Glucose Events Detection”, <i>in Proceedings of IEEE International Conference on E-health Networking, Application & Services (IEEE Healthcom 2023)</i>, Chongqing, China, Dec 15–17, 2023 <a href="https://ieeexplore.ieee.org/document/10472383" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>I. Cho, D. Towey, and <b>P. Kar</b>, “Using Obfuscators to Test Compilers: A Metamorphic Experience”, <i>in Proceedings of the 15th IEEE International Workshop on Software Test Automation in conjugation with IEEE COMPSAC 2023</i>, Torino, Italy, Jun 26-30, 2023. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10197054" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>R. Arathy, B. Bhabani, M. Malakar, J. Mahapatro, and <b>P. Kar</b>, “Jamming Attack classification in Wireless Networks using Machine Learning”, <i>in Proceedings of the 4th International Conference on  Communication and Intelligent Systems (ICCIS 2022)</i>, New Delhi, India, Dec 19-20, 2022. <a href="https://link.springer.com/chapter/10.1007/978-981-99-2322-9_35" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>Z. Wang, Y. Guo, T. Xia, B. Ye, and <b>P. Kar</b>, “Detection of COVID-19 Through Thermal and Voice SensingUsing Smartphone”, <i>in Proceedings of the 22nd IEEE/ACIS International Conference on Computer and Information Science (ICIS 2022)</i>, Zhuhai, China, June 26-28, 2022. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9882515" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>L. Hu, Y. Huang, and <b>P. Kar</b>, “An Integrated Single Device Framework for Combined Face Recognition and Covid-19 Detection Using Thermal Infrared Imagery”, <i>in Proceedings of the 22nd IEEE/ACIS International Conference on Computer and Information Science (ICIS 2022)</i>, Zhuhai, China, June 26-28, 2022. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9882354" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>S. Datta, M. Roy, <b>P. Kar</b>, “Application of IoT in Smart Epidemic Management in context of Covid-19”, <i>in Proceedings of the 22nd IEEE International Conference on High Performance Switching and Routing (HPSR 2021)</i>, pp. 1-6, Paris, France, June 2021 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9481844" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>J. Shi, W. Sheng, <b>P. Kar</b>, M. Roy, S. Datta, “A Novel Framework for Predicting the Spread of COVID-19 by Contact Tracing through Smartphone”, <i>in Proceedings of the 17th IEEE International Wireless Communications and Mobile Computing Conference (IWCMC 2021)</i>, pp. 570-575, Harbin, China, June 2021 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9498988" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>R. Chen, Y. Zhang, Y. Fei, and <b>P. Kar</b>, “WLEACH-CK: Weighted K-Means Based LEACH-C Algorithm for Cluster Head Selection”, <i>In Proceedings of the 17th IEEE International Conference on the Design of Reliable Communication Networks (DRCN 2021)</i>, pp. 1-6, Milan, Italy, April 2021 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9477380" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, Y. Dong, Y. Li, X. Ma, X. Ding, Y. Wang, “NDN Based Plug-n-Play and Secure Remote Health Monitoring System”, <i>in proceedings of the IEEE International Conference on Communication (ICC 2021)</i>, pp. 1-6, Montreal, Canada, June 2021 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9500908" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>Z. Song and <b>P. Kar</b>, “Name-Signature Look Up System: A Security Enhancement to Named Data Networking”, <i>in Proceedings of the 19th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom 2020)</i>, pp. 1444-1448, Guangzhou, China, Dec 2020 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9343242" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>S. Wu, Y. Yuan, and <b>P. Kar</b>, “Lightweight Verification and Fine-grained Access Control in Named Data Networking Based on Schnorr Signature and Hash Functions”, <i>in Proceedings of the 20th IEEE International Conference on Communication Technology (ICCT 2020)</i>, pp. 1561-1566, Nanning, China, Oct 2020 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9295852" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>A. Kumar, A. Shareef, K. T. Harn, <b>P. Kar</b>, and S. K. Panda, “A Complete Hardware Setup for Smart Lighting System”, <i>in Proceedings of the IEEE International Conference on Sustainable Energy Technologies and Systems (ICSETS 2019)</i>, pp. 297-300, Bhubaneswar, India, Feb 2019 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8744873" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, S. Misra, A. Mandal, and H. Wang, “SecureIoT: Hop-Count Based Service-Oriented Efficient Security Solution for IoT”, <i>in Proceedings of the ACM International Workshop on Future Industrial Communication Networks (FICN) in conjunction with ACM MobiCom 2018</i>, pp. 15-20, New Delhi, India, Nov 2018 <a href="https://dl.acm.org/doi/pdf/10.1145/3243318.3243323" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b> and B. Dappuri “Site Survey and Radio Frequency Planning for the Deployment of Next Generation WLANs”, <i>in Proceedings of the IEEE International Conference on Wireless Communications, Signal Processing and Networking (WiSPNET 2018)</i>, pp. 1-4, Chennai, India, 2018 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8538731" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, S. Das, and A. Kumar “PreCoRe: Predictive Connectivity Reestablishment in Wireless Sensor Network in the Presence of Dumb Nodes,” <i>in Proceedings of the IEEE Region 10 Conference (TENCON 2017)</i>, pp. 403-408, Penang, Malaysia, November 2017 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8227898" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>A. Kumar, A. Kajale, <b>P. Kar</b>, R. Warier, A. Shareef, S. K. Panda, “Location-aware Smart Lighting System for Individual Visual Comfort in Buildings,” <i>in Proceedings of the 6th IEEE Global Conference on Consumer Electronics (GCCE 2017)</i>, pp. 1-2, Nagoya, Japan, October 2017 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8229490" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>A. Kumar, A. Kajale, <b>P. Kar</b>, R. Warrier, and S. K. Panda, “Implementation and Integration of a Smart App in a Smart Building for Personal Visual Comfort,” <i>in Proceedings of the 12th IEEE International Conference on Power Electronics and Drive Systems (PEDS 2017)</i>, pp. 1161-1166, Honolulu, Hawaii, USA, December 2017 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8289256" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>S. Das, <b>P. Kar</b>, and S. Barman, “Analysis Of IEEE 802.11 WLAN Frame Aggregation Under Different Network Conditions,” <i>in Proceedings of the IEEE International Conference on Wireless Communications, Signal Processing and Networking (WiSPNET 2017)</i>, pp. 1240-1245, Chennai, India, March 2017 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8299961" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, S. Barman, and S. Das, “ISCP: Inter State changing problem in Wireless Sensor Network with dumb nodes,” <i>in Proceedings of the International Conference on Computing and Communication Systems (I3CS 2016)</i>, Shillong, India, November 2016, DoI:10.1007/978-981-10-6890-4_2 <a href="https://link.springer.com/chapter/10.1007/978-981-10-6890-4_2" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>S. Das, <b>P. Kar</b>, and D. K. Jana, “SDH: Self detection and Healing mechanism for dumb nodes in Wireless Sensor Network”, <i>in Proceedings of the IEEE Region 10 Conference (TENCON 2016)</i>, pp. 2792-2795, Singapore, November 2016 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7848550" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, R. S. Reddy, P. Gupta, J. Dauwels, and A. Ukil, “FLoGPN: A Reputation Based Scheme for Fault Localization in Gas Pipeline Network,” <i>in Proceedings of the 42nd Annual Conference of IEEE Industrial Electronics Society (IECON 2016)</i>, pp. 4651-4656, Florence, Italy, October, 2016 <b>(Received best presentation award)</b> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7793693" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li><b>P. Kar</b>, A. Roy, S. Misra, and M. S. Obaidat, “Energy-Efficient Connectivity Re-establishment in WSN in the Presence of Dumb Nodes,” <i>in Proceedings of the IEEE ICC 2015 — 4th IEEE International Workshop on Smart Communication Protocols and Algorithms (SCPA)</i>, pp. 1485 – 1490, London, UK, June 2015 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7247389" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>A. Roy, <b>P. Kar</b>, and S. Misra, “Detection of Dumb Nodes in a Stationary Wireless Sensor Network,” <i>in Proceedings of the 11th IEEE India Conference (INDICON 2014)</i>, pp. 1–6, Pune, Maharashtra, India, December, 2014 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7030668" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>M. Roy, <b>P. Kar</b>, and N. Mukherjee, “A Jini Based Implementation for Best Leader Node Selection in MANETs,” <i>in Proceedings of the International Conference on Computer Networks & Communications (NetCom 2012)</i>, pp. 15-22, Chennai, India, December 2012 <a href="https://link.springer.com/chapter/10.1007/978-1-4614-6154-8_2" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>M. Roy, <b>P. Kar</b>, and N. Mukherjee, “An Enhanced Service Framework in MANETs for Application in Emergency Services,” <i>in Proceedings of the IEEE International Conference on Intelligent Network and Computing (ICINC 2010)</i>, no.1, pp.191-198, Kuala Lumpur, Malaysia, November 2010 <a href="https://repository.dinus.ac.id/docs/jurin/15073.pdf" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  <li>M. Roy, <b>P. Kar</b>, and N. Mukherjee, “Determining JINI Leasing Time Limits Using the Random Waypoint Mobility Model in Mobile Ad Hoc Networks,” <i>in Proceedings of the 10th IEEE International Conference on Networking and Information Technology (ICNIT 2010)</i>, pp. 64-69, Manila, Philippines, June 2010 <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5508558" target="_blank" rel="noopener noreferrer"><img src="/images/Pdf_icon.png" width="16" height="16"></a></li>
-  </ol>
-<h1 style="font-size:22px">Books:</h1>
-<ul>
-  <li>
-    <h1 style="font-size:18px">Authored:</h1>
-    <ol>
-      <li> <b>P. Kar</b>, M. Roy, and S. Dutta, “Recommender Systems: Algorithms and their Applications”, Springer, June 2024, ISBN: 978-981-97-0537-5 [<a href="https://link.springer.com/book/10.1007/978-981-97-0538-2" target="_blank" rel="noopener noreferrer">Link</a>]</li>
-    </ol>
-  </li>
-  <li>
-   <h1 style="font-size:18px">Edited:</h1>
-<ol>
-  <li>M. Roy, <b>P. Kar</b>, and S. Dutta, “Recommender Systems: A Multi-Disciplinary Approach”, <i>CRC Press</i>, June 2023, ISBN: 9781003319122 [<a href="https://www.taylorfrancis.com/books/edit/10.1201/9781003319122/recommender-systems-sujoy-datta-monideepa-roy-pushpendu-kar" target="_blank" rel="noopener noreferrer">Link</a>]</li>
-  <li>M. Roy, <b>P. Kar</b>, and S. Dutta, “Interoperability in IoT for Smart Systems”, <i>CRC Press</i>, December 2020, ISBN: 9780367519865 [<a href="https://www.taylorfrancis.com/books/e/9781003055976" target="_blank" rel="noopener noreferrer">Link</a>]</li>
-  <li>G. G. Md. Nawaz Ali, Md. N. A. Rahim, and <b>P. Kar</b>, “Vehicular Ad-Hoc Networks: Applications and Technology”, <i>Nova science publishers</i>, September 2020, ISBN: 978-1-53618-038-1 [<a href="https://novapublishers.com/shop/vehicular-ad-hoc-networks-applications-and-technology/" target="_blank" rel="noopener noreferrer">Link</a>]</li>
-</ol>
-    </li>
-</ul>
-<h1 style="font-size:22px">Book Chapters:</h1>
-<ol>
-  <li>S. Singh, M. Roy, S. Datta, and <b>P. Kar</b>, “Application of Swarm Intelligence in Recommender Systems”, in Recommender Systems: A Multi-Disciplinary Approach, <i>CRC Press</i>, June 3023, DOI: 10.1201/9781003319122</li>
-  <li>A. Saha, S. Dey, M. Roy, S. Datta, and <b>P. Kar</b>, “Recommendation Systems for Choosing Online Learning Resources: A Hands-On Approach”, in Recommender Systems: A Multi-Disciplinary Approach, <i>CRC Press</i>, June 3023, DOI: 10.1201/9781003319122</li>
-  <li><b>P. Kar</b>, “Optimal Hole Coverage in the Presence of Dumb Node in Wireless Sensor Networks”, in Vehicular Ad-Hoc Networks: Applications and Technology, <i>Nova science publishers</i>, September 2020</li>
-  <li><b>P. Kar</b> and A. Das, “Artificial Neural Networks and Learning Techniques”, in P. Samui (Eds.), Advanced Computational Techniques for Simulation-Based Engineering, <i>IGI Global</i>, USA, DOI: 10.4018/978-1-4666-9479-8.ch009, March 2016</li>
-</ol>
 
-<h1 style="font-size:22px">Patents:</h1>
-<ol>
-  <li>Q. Mao, A. G. Bellotti, <b>P. Kar</b>, “A text image repair method, device and storage medium”, <i>Chinese patent</i> <b>granted</b> on 27th February 2025 (Patent no: 2025022700346710)</li>
-   <li>S. Misra, S. Goswami, <b>P. Kar</b>, and A. Roy, “PKI Enabled Time Stamped Digital Signing System Involving Certification Authority Issued Digital Certificate Cryptographic Token With Real-Time Revocation Verification”, <i>Indian patent</i> <b>granted</b> on 24th June 2024 (Patent no: 537779)</li>
-   <li>S. Misra, A. Roy, <b>P. Kar</b>, and S. Goswami, “An Adverse Environmental Effect Resistant Seamless Wireless Sensor Network System”, <i>Indian patent</i> <b>granted</b> on 12th December 2023 (Patent no.: 480946)</li>
-  <li>S. Misra, <b>P. Kar</b>, A. Roy, and S. Goswami, “An Advanced Wireless Sensor Network System and Method for Accurate Information Gathering from a Radiation Affected Area”, <i>Indian patent</i> <b>granted</b> on 3rd August 2023 (Patent no.: 442698)</li>
-  <li><b>P. Kar</b>, L. Hu, “A Health Monitoring System”, <i>Chinese patent</i> filed on 23rd September 2022 (Patent no.: 202211168088.9)</li>
-  <li>A. Kumar, A. Shareef, <b>P. Kar</b>, B. K. Mallikarjuna, T. H. Koh, and S. K. Panda, “An Intelligent Lighting System for Smart Buildings Using Multi-Agent-Enabled Wireless Sensor-Actuator Network”, <i>Singapore patent</i> filed on 1st June 2018 (Patent no.: 10201804681P)</li>
-</ol>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Futuristic Publications Showcase</title>
+<style>
+body {
+  background: linear-gradient(135deg, #f7faff, #eef4ff);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 40px;
+}
+/* === Header === */
+.pub-header {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #005fa3;
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+.pub-header::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(90deg, #3a95f2, #5ee6ff);
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 3px;
+}
+/* === Publication Grid === */
+.pub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+  width: 100%;
+  max-width: 1100px;
+}
+/* === Publication Card === */
+.pub-card {
+  background: rgba(255,255,255,0.75);
+  border: 1px solid rgba(90,180,255,0.3);
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(100,180,255,0.25);
+  padding: 20px;
+  backdrop-filter: blur(12px);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.35s ease;
+}
+.pub-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(80,160,255,0.4);
+  border-color: rgba(60,160,255,0.5);
+}
+/* === Glow Animation === */
+.pub-card::before {
+  content: "";
+  position: absolute;
+  width: 250%;
+  height: 250%;
+  top: -75%;
+  left: -75%;
+  background: linear-gradient(120deg, rgba(90,180,255,0.15), rgba(255,255,255,0), rgba(90,180,255,0.15));
+  transform: rotate(25deg);
+  animation: shimmer 10s linear infinite;
+}
+@keyframes shimmer {
+  0% { transform: translateX(-25%) rotate(25deg); }
+  100% { transform: translateX(25%) rotate(25deg); }
+}
+/* === Content === */
+.pub-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #004b87;
+  margin-bottom: 6px;
+}
+.pub-authors {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 6px;
+}
+.pub-journal {
+  font-size: 0.85rem;
+  color: #0078d7;
+  font-weight: 500;
+}
+.pub-year {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  font-size: 0.85rem;
+  background: rgba(220,240,255,0.6);
+  padding: 3px 8px;
+  border-radius: 8px;
+  color: #0078d7;
+}
+.pub-link {
+  margin-top: 10px;
+  display: inline-block;
+  background: linear-gradient(90deg, #3a95f2, #5ee6ff);
+  color: white;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+}
+.pub-link:hover {
+  background: linear-gradient(90deg, #5ee6ff, #3a95f2);
+  box-shadow: 0 0 10px rgba(80,180,255,0.6);
+}
+</style>
+</head>
+
+<body>
+  <div class="pub-header">📚 Journal Publications</div>
+  <div id="publications" class="pub-grid"></div>
+
+<script>
+/* === Minimal BibTeX Parser === */
+function parseBibTeX(bibtexText) {
+  const entries = [];
+  const regex = /@(\w+)\s*{\s*([^,]+),([\s\S]*?)\n}/g;
+  let match;
+  while ((match = regex.exec(bibtexText))) {
+    const type = match[1];
+    const id = match[2];
+    const fieldsText = match[3];
+    const fields = {};
+    const fieldRegex = /(\w+)\s*=\s*[{"]([^"}]+)[}"]/g;
+    let f;
+    while ((f = fieldRegex.exec(fieldsText))) {
+      fields[f[1].toLowerCase()] = f[2];
+    }
+    entries.push({ type, id, fields });
+  }
+  return entries;
+}
+
+/* === Render Function === */
+function renderPublications(entries) {
+  const container = document.getElementById("publications");
+  container.innerHTML = "";
+  entries.forEach(entry => {
+    const f = entry.fields;
+    const div = document.createElement("div");
+    div.className = "pub-card";
+    div.innerHTML = `
+      <div class="pub-year">${f.year || ""}</div>
+      <div class="pub-title">${f.title || "Untitled"}</div>
+      <div class="pub-authors">${f.author || ""}</div>
+      <div class="pub-journal"><em>${f.journal || f.booktitle || ""}</em></div>
+      ${f.url ? `<a href="${f.url}" class="pub-link" target="_blank">View Paper →</a>` : ""}
+    `;
+    container.appendChild(div);
+  });
+}
+
+/* === Load BibTeX File === */
+fetch("publications.bib")
+  .then(res => res.text())
+  .then(text => {
+    const entries = parseBibTeX(text);
+    // Sort by year (descending)
+    entries.sort((a, b) => (b.fields.year || 0) - (a.fields.year || 0));
+    renderPublications(entries);
+  })
+  .catch(err => console.error("Error loading BibTeX:", err));
+</script>
+</body>
+</html>
+
+
+
+

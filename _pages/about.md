@@ -8,156 +8,156 @@ redirect_from:
   - /about.html
 ---
 
-<table>
-                                       <tr>
-<td bgcolor="#2ADCEA" height="25px" align="center">
-<b>Recent highlights</b>
-</td>
-</tr>
-<tr>
-<td>
-<div align="center" style="background-color:#e4e4ed" width="80%">
-<marquee id='scroll_news' style="position: related;" onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();" scrollamount="2" scrolldelay="100" direction="up" loop="true" height="125" width="100%" >
-<font size="+.5">
-<!--YOUR SCROLL CONTENT HERE-->
-<p align="left" class="infotxt" >
+<style>
+/* === Page Setup (Neutral Light Background) === */
 
-[September, 2025] <b>Two</b> papers have been accepted in the 25th IEEE International Conference on BioInformatics and BioEngineering (<b>BIBE 2025</b>).
-<br><br>
-[September, 2025] Organizing "IEEE International Conference on Data Science and Edge Computing" (<b>ICDSEC 2025</b>), 4- 6 December 2025, Changsha, China, Role: <b>General Chair</b>.
-<br><br>
-[September, 2025] Our paper titled "ProLoC: An Efficient Probability-Based Forwarding Mechanism Considering Load Factor for Congestion Control in Named Data Networking" in the <b>IEEE iThings 2025</b> conference as a Regular Paper.
-<br><br>
-[August, 2025] Serving as a <b>General Chair</b> in the 4th International Conference on Advanced Communications and Machine Intelligence (MICA 2025), 22 – 24 December 2025, Tripura, India
-<br><br>
-[August, 2025] Serving as a <b>Guest Editor</b> in the special issue titled "Industrial uses and benefits of blockchain applications", Scientific Reports (Nature portfolio, Impact factor: 4.3), 2025 - 2026
-<br><br>
-[August, 2025] Starting as <b>Associate Professor</b> in the School of Computer Science at the University of Nottingham Ningbo China from 1st August 2025.
-<br><br>
-[June, 2025] Received <b>Research Excellence Award</b> from AIOP research group at the University of Nottingham Ningbo China.
-<br><br>
-[May, 2025] Serving as a <b>Track Chair</b> of 10th International Conference on Frontiers of Signal Processing (ICFSP 2025), Paris, France.
-<br><br>
-[May, 2025] Serving as a <b>General Chair</b> of Asia-Europe Conference on Cybersecurity, Internet of Things and Soft Computing (CITSC 2026), Rimini, Italy.
-<br><br>
-[February, 2025] Joined as the <b>Director of Academic Development and Outreach</b>, Faculty of Science and Engineering, University of Nottingham Ningbo China.
-<br><br>
-[February, 2025] Our Chinese patent titled "<b>A text image repair method, device and storage medium</b>" has been <b>granted</b> on 27th February 2025.
-<br><br>
-[February, 2025] Joined as an <b>Editorial Board Member</b> in <i>International Journal of Applied Pattern Recognition</i> (Impact factor: 1.1), InderScience
-<br><br>
-[January, 2025] Joined as an <b>Editorial Board Member</b> in <i>Scientific Reports</i> (Impact factor: 3.8), Springer Nature
-<br><br>
-[January, 2025] Our paper titled "Efficient and Secure Data Sharing in Scalable C-V2X with Dynamic Sharding Blockchain and Zero-Knowledge Proofs" was accepted in <b>IEEE International Conference on Communications (ICC 2025)</b>.
-<br><br>
-[December, 2024] Joined as a <b>Guest Editor</b> in PLOS ONE.
-<br><br>
-[December, 2024] Our paper titled "βFSCM: An Enhanced Food Supply Chain Management System Using Hybrid Blockchain and Recommender Systems" was accepted in <b>Blockchain: Research and Applications (Elsevier)</b>.
-<br><br>
-[November, 2024] Our paper titled "An Accurate Salary Estimation Scheme by Using BigData Technique" was accepted in <b>BDCAT 2024</b>.
-<br><br>
-[November, 2024] Our paper titled "ALDII: Adaptive Learning-based Document Image Inpainting to Enhance the Handwritten Chinese Character Legibility of Human and Machine" was accepted in <b>Neurocomputing (Elsevier)</b> on 7th November 2024.
-<br><br>
-[October, 2024] Joined as an <b>International Professional Registration Advisor (IPRA)</b> and <b>Professional Registration Interviewer (PRI) for CEng/IEng</b> in The Institution of Engineering and Technology (<b>IET</b>), UK.
-<br><br>
-[August, 2024] Awarded an <b>Excellent Performance</b> rating for overall academic performance in the 2023-2024 academic year at the University of Nottingham Ningbo China.
-<br><br>
-[July, 2024] Our paper titled <b>“Navigating the Road Ahead: A Comprehensive Survey of Radio Resource Allocation for Vehicle Platooning in C-V2X Communications"</b> has been accepted in <b>IEEE Communications Surveys and Tutorials</b>.
-<br><br>
-[June, 2024] Our Indian patent titled "<b>PKI Enabled Time Stamped Digital Signing System Involving Certification Authority Issued Digital Certificate Cryptographic Token With Real-Time Revocation Verification</b>" has been <b>granted</b> on 24th June 2024.
-<br><br>
-[June, 2024] Our paper titled <b>“Development of a User-Friendly and Efficient Control System for Smart Home"</b> has been accepted in <b>IEEE International Conference on Internet of Things (iThings)</b>, Copenhagen, Denmark, 19 – 22 August 2024.
-<br><br>
-[June, 2024] Delivered an <b>Invited Talk</b> at the 8th International Conference on Mathematical Models & Computational Techniques in Science & Engineering in Athens, Greece on 02nd June 2024.
-<br><br>
-[May, 2024] Delivered an <b>Invited Talk</b> at Techno College of Engineering Agartala, Tripura, India on 22nd May 2024.
-<br><br>
-[April, 2024] Awarded <b>Chartered Engineer (CEng)</b> from <b>Engineering Council</b>, UK on 30th April 2024.
-<br><br>
-[April, 2024] Delivered a <b>Keynote Speech</b> at the 13th International Conference of Information and Communication Technology (ICTech2024) in Xiamen, China on 13th April 2024.
-<br><br>
-[March, 2024] I am serving as <b>General Chair</b> at the Asia-Europe Conference on Cybersecurity, Internet of Things and Soft Computing (CITSC 2025), 10-12 January 2024, Rimini, Italy.
-<br><br>
-[February, 2024] Happy to share that our paper titled <b>Advancing NDN Security: Efficient Identification of Cache Pollution Attacks through Rank Comparison</b> has been accepted in <b>Internet of Things(Elsevier)</b>.
-<br><br>
-[January 2024] I am serving as <b>Technical Program Committee Chair</b> at the International Conference on Internet of Things (ICIoT 2024), October 11 -12, 2024, Ningbo, China.
-<br><br>
-[January, 2024] I am serving as <b>Publication Chair</b> at the International Conference on Artificial Intelligence and Computer Information Science (AICIS 2024), March 15 - 17, 2024, Guangzhou, China.
-<br><br>
-[December, 2023] Happy to share that our patent titled "An Adverse Environmental Effect Resistant Seamless Wireless Sensor Network System" has <b>granted</b> on 12th December 2023.
-<br><br>
-[December, 2023] Our paper titled <b>Autonomous Handover Parameter Optimisation for 5G Cellular Networks using Deep Deterministic Policy Gradient</b> has been accepted in <b>Expert Systems With Applications(Elsevier)</b>.
-<br><br>
-[December, 2023] Our book titled <b>Recommender Systems: Algorithms and their Applications</b> was accepted for publication by Springer.
-<br><br>
-[October, 2023] Serving as <b>UG Course Director of Computer Science</b> at the University of Nottingham Ningbo China.
-<br><br>
-[September, 2023] Serving as <b>PGCHE faculty advisor of FoSE</b> at the University of Nottingham Ningbo China.
-<br><br>
-[October, 2023] Our paper titled "BUMS: A Novel Balanced Multi-model Machine Learning System for Real-Time Blood Glucose Prediction and Abnormal Glucose Events Detection" was accepted in <b>IEEE Healthcom 2023</b>.
-<br><br>
-[September, 2023] Elected as Fellow of The Institution of Electronics & Telecommunication Engineers (<b>FIETE</b>), India, 2023.
-<br><br>
-[August, 2023] Our paper titled "Design of a Blockchain-based Secure Health Monitoring System Using Decentralized Machine Learning Technique" was accepted in <b>IEEE Communications Magazine</b>.
-<br><br>
-[August, 2023] Awarded an <b>Excellent Performance</b> rating for overall academic performance in the 2022-2023 academic year at the University of Nottingham Ningbo China.
-<br><br>
-[August, 2023] Delivered <b>Keynote Speech</b> at International Conference on Image, Algorithms and Artificial Intelligence (ICIAAI2023), Singapore, 11th August 2023.
-<br><br>
-[August, 2023] Happy to share that our patent titled "An Advanced Wireless Sensor Network System and Method for Accurate Information Gathering from a Radiation Affected Area" has <b>granted</b> on 3rd August 2023.
-<br><br>
-[July, 2023] I  have elevated to the <b>Senior Fellow of Higher Education Academy (SFHEA)</b>, UK
-<br><br>
-[July, 2023] Our paper “Intelligent Traffic Prediction by Combining Weather and Road Traffic Condition Information: a deep learning-based approach” was accepted in <b>International Journal of Intelligent Transportation Systems Research (Springer)</b>
-<br><br>
-[June, 2023] I have completed <b>Postgraduate Certificate in Higher Education (PGCHE)</b>[a master's level teaching qualification] by following the UK Professional Standards Framework (UKPSF) of the Higher Education Academy (HEA), UK
-<br><br>
-[June, 2023] I am serving as <b>Publication Chair</b> at the 2nd International Conference on Computer, Internet of Things and Control
-Engineering (CITCE 2023), 3 - 5 November 2023, Leicester, UK.
-<br><br>
-[May, 2023] I am serving as <b>Program Committee Chair</b> at the International Conference on Images, Algorithms and Artificial Intelligence, Aug 11 – 13, 2023, Singapore
-<br><br>
-[Dec, 2022] I am serving as <b>General Chair</b> at the 2nd International Conference on 3D Immersion, Interaction and Multi-sensory Experiences (ICDIIME 2023), 27-29 June 2023, Madrid, Spain
-<br><br>
-[Oct, 2022] Delivered <b>Keynote Speech</b> at International Conference on Mechatronics and Automation Technology (ICMAT2022), Wuhan, China.
-<br><br>
-[Aug, 2022] I am serving as <b>Publication Chair</b> at 2nd International Conference on Computer, Internet of Things and Control Engineering (CITCE 2022), 11 - 13 November 2022, Sanya, China.
-<br><br>
-[Aug, 2022] Delivered <b>Keynote Speech</b> at 2nd International Conference on Computer, Remote Sensing, and Aerospace (CRSA2022), Virtual.
-<br><br>
-[Aug, 2022] Happy to share that our paper titled "<b>An Efficient Producer Mobility Management Technique for Real-time Communication in NDN-based Remote Health Monitoring Systems</b>" has been accepted in <b>Smart Health (Elsevier)</b>!
-<br><br>
-[Aug, 2022] Happy to share that our paper titled "<b>DMACN: A Dynamic Multi-Attribute Caching Mechanism for NDN-Based Remote Health Monitoring System</b>" has been accepted in <b>IEEE Transactions on Computers</b>!
-<br><br>
-[Aug, 2022] Happy to share that our paper titled "<b>An Intelligent Lighting Control System for Individual Visual Comfort and Energy Savings in Buildings</b>" has been accepted in <b>Journal of Reliable Intelligent Environments (Springer)</b>!
-<br><br>
-[July, 2022] Joined as a <b>Review Editor</b> in the editorial board of <b>Frontiers in the Internet of Things - IoT Services and Applications</b>.
-<br><br>
-[June, 2022] Joined as a <b>Review Editor</b> in the editorial board of <b>Frontiers in Energy Efficiency - Energy Efficiency Applications</b>.
-<br><br>
-[June, 2022] Delivered <b>Keynote Speech</b> at Faculty Development Programme, Sharda University, India.
-<br><br>
-[Mar, 2022] Happy to share that our two papers have been accepted in <b>22nd IEEE/ACIS ICIS 2022</b>!
-<br><br>
-[Mar, 2022] Happy to share that our paper titled "<b>Are Fake Images Bothering You on Social Network? Let’s Detect Them Using Recurrent Neural Network</b>" has been accepted in <b>IEEE TCSS</b>!
-<br><br>
-[Dec, 2021] Happy to share that I become <b>Fellow of Higher Education Academy (FHEA)</b>, UK!
-<br><br>
-[August, 2021] Happy to share that I have received the <b>Spot Award</b> for teaching excellence and effective services to The University of Nottingham Ningbo China!
-<br><br>
-[July, 2021] Happy to share that I have been recognized as the <b>High Level Talent</b> by Ningbo Municipal Government, China!
-<br><br>
-  
-<!--YOUR SCROLL CONTENT HERE-->
-  
-</p>
-</font> </marquee></div>
-</td>
-</tr>
-<tr style="background-color:#e4e4ed">
-<td bgcolor="#EA2AD6" height="1px">
-</td></tr>
-</table>
+
+/* === Glassmorphism Container === */
+.announcement-box {
+  width: 90%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 18px;
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(180, 200, 255, 0.4);
+  box-shadow: 0 8px 25px rgba(180, 210, 255, 0.35);
+  overflow: hidden;
+  position: relative;
+  animation: glowPulse 8s infinite ease-in-out;
+}
+
+/* === Gentle Glow Animation === */
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(90, 180, 255, 0.3); }
+  50% { box-shadow: 0 0 35px rgba(90, 180, 255, 0.55); }
+}
+
+/* === Header === */
+.announcement-header {
+  background: linear-gradient(90deg, #5eb8ff, #3a95f2, #5ee6ff);
+  text-align: center;
+  padding: 14px 0;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.announcement-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255,255,255,0.25), rgba(255,255,255,0.05), rgba(255,255,255,0.25));
+  animation: headerShine 6s linear infinite;
+}
+
+@keyframes headerShine {
+  0% { left: -50%; }
+  100% { left: 100%; }
+}
+
+/* === Scrolling Area === */
+.announcement-content {
+  height: 200px;
+  overflow: hidden;
+  color: #1a2a3a;
+  padding: 15px 20px;
+  background: rgba(255,255,255,0.4);
+}
+
+.scroll-area {
+  display: flex;
+  flex-direction: column;
+  animation: scrollFuture 20s linear infinite;
+}
+
+.scroll-area:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scrollFuture {
+  0% { transform: translateY(0%); }
+  100% { transform: translateY(-50%); }
+}
+
+/* === Individual Announcement === */
+.announcement-item {
+  border-bottom: 1px solid rgba(150, 180, 255, 0.2);
+  padding: 10px 0;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.announcement-item span.icon {
+  color: #3a95f2;
+  text-shadow: 0 0 6px rgba(80, 180, 255, 0.8);
+  font-size: 1.1rem;
+}
+
+.announcement-item strong {
+  color: #0078d7;
+}
+
+.announcement-item:hover {
+  transform: translateX(6px);
+  color: #005fa3;
+}
+
+/* === Subtle Glow Lines (Top + Bottom) === */
+.announcement-box::before,
+.announcement-box::after {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #5eb8ff, transparent);
+  top: 0;
+  left: -10%;
+  animation: moveLine 9s linear infinite;
+}
+
+.announcement-box::after {
+  bottom: 0;
+  top: auto;
+  animation-delay: 4s;
+}
+
+@keyframes moveLine {
+  0% { transform: translateX(-50%); opacity: 0.6; }
+  100% { transform: translateX(50%); opacity: 0.6; }
+}
+</style>
+
+<!-- === Futuristic Announcement Box (Light Theme) === -->
+<div class="announcement-box">
+  <div class="announcement-header">✨ Research Lab Updates</div>
+  <div class="announcement-content">
+    <div class="scroll-area">
+      <div class="announcement-item"><span class="icon">🚀</span> <strong>Publication:</strong> Quantum–Edge Resource Scheduling accepted at IEEE CloudNet 2025.</div>
+      <div class="announcement-item"><span class="icon">🧠</span> <strong>Symposium:</strong> “AI for Quantum Networks” — Tokyo, March 2026.</div>
+      <div class="announcement-item"><span class="icon">🔬</span> <strong>Launch:</strong> QEdge 2.0 — Adaptive Hybrid Cloud Framework.</div>
+      <div class="announcement-item"><span class="icon">🏆</span> <strong>Award:</strong> Recognized for Excellence in Edge-AI Research 2025.</div>
+      <div class="announcement-item"><span class="icon">🌐</span> <strong>Collaboration:</strong> Joint Project with European Quantum Network.</div>
+
+      <!-- Duplicate for smooth infinite scroll -->
+      <div class="announcement-item"><span class="icon">🚀</span> <strong>Publication:</strong> Quantum–Edge Resource Scheduling accepted at IEEE CloudNet 2025.</div>
+      <div class="announcement-item"><span class="icon">🧠</span> <strong>Symposium:</strong> “AI for Quantum Networks” — Tokyo, March 2026.</div>
+      <div class="announcement-item"><span class="icon">🔬</span> <strong>Launch:</strong> QEdge 2.0 — Adaptive Hybrid Cloud Framework.</div>
+      <div class="announcement-item"><span class="icon">🏆</span> <strong>Award:</strong> Recognized for Excellence in Edge-AI Research 2025.</div>
+      <div class="announcement-item"><span class="icon">🌐</span> <strong>Collaboration:</strong> Joint Project with European Quantum Network.</div>
+    </div>
+  </div>
+</div>
+
 
 
 Biography

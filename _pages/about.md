@@ -12,6 +12,112 @@ redirect_from:
 /* === Page Setup (Neutral Light Background) === */
 
 
+/* === General Page Layout === */
+body {
+  background: #f7faff;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* === Announcement Box Container === */
+.hiring-box {
+  position: fixed;
+  top: 100px;
+  right: 40px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(90, 180, 255, 0.3);
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 25px rgba(150, 200, 255, 0.4);
+  overflow: hidden;
+  animation: slideInRight 1.2s ease;
+  z-index: 999;
+}
+
+/* === Slide In Animation === */
+@keyframes slideInRight {
+  0% { transform: translateX(120%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+/* === Header Section === */
+.hiring-header {
+  background: linear-gradient(90deg, #3a95f2, #5ee6ff);
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+.hiring-header::after {
+  content: "🌟";
+  position: absolute;
+  right: 15px;
+  animation: spin 6s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* === Content Section === */
+.hiring-content {
+  padding: 15px;
+  text-align: right;
+  color: #1a2a3a;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.hiring-content strong {
+  color: #0078d7;
+}
+
+/* === Call to Action Button === */
+.hiring-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #3a95f2, #5ee6ff);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.hiring-btn:hover {
+  background: linear-gradient(90deg, #5ee6ff, #3a95f2);
+  box-shadow: 0 0 10px rgba(80, 180, 255, 0.6);
+}
+
+/* === Glow Border Animation === */
+.hiring-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  padding: 1px;
+  background: linear-gradient(135deg, #5ee6ff, #3a95f2, #0078d7);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: borderGlow 8s linear infinite;
+}
+@keyframes borderGlow {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+
+
 /* === Glassmorphism Container === */
 .announcement-box {
   width: 90%;
@@ -136,6 +242,24 @@ redirect_from:
   100% { transform: translateX(50%); opacity: 0.6; }
 }
 </style>
+
+
+
+<!-- === Announcement Box === -->
+<div class="hiring-box">
+  <div class="hiring-header">🎓 Student Hiring</div>
+  <div class="hiring-content">
+    <p><strong>QEdge Research Lab</strong> is seeking motivated students for research in:</p>
+    <ul style="list-style: none; padding: 0; margin: 0; text-align: right;">
+      <li>🔹 Distributed & Edge Computing</li>
+      <li>🔹 Quantum Cloud Systems</li>
+      <li>🔹 AI-driven IoT Applications</li>
+    </ul>
+    <p>Join our innovation-driven environment to explore next-gen computing!</p>
+    <a href="#" class="hiring-btn">Apply Now →</a>
+  </div>
+</div>
+
 
 <!-- === Futuristic Announcement Box (Light Theme) === -->
 <div class="announcement-box">

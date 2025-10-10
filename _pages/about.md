@@ -242,12 +242,10 @@ redirect_from:
 <div class="hiring-box">
   <div class="hiring-header">🎓 Student Hiring</div>
   <div class="hiring-content">
-    <p> I'm seeking motivated students for PhD & master, research in:</p>
-    <ul >
-      <li>🔹  Quantum Cloud & Edge Computing</li>
-      <li>🔹 Agentic-based (LLM) Scheduling </li>
-      <li>🔹 AI-driven IoT Applications </li>
-    </ul>
+    <p> I'm seeking students for PhD & master, research in:</p>
+    <p> 🔹  Quantum Cloud & Edge Computing</p>
+    <p> 🔹  Agentic-based (LLM) Scheduling</p>
+    <p> 🔹  AI-driven IoT Applications </p>   
     <p> <strong> Mail me </strong>  your CV to join our innovation-driven environment to explore next-gen computing!</p>    
   </div>
 </div>

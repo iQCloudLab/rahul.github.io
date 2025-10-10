@@ -13,12 +13,6 @@ redirect_from:
 
 
 /* === General Page Layout === */
-body {
-  background: #f7faff;
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-}
 
 /* === Announcement Box Container === */
 .hiring-box {
@@ -115,7 +109,6 @@ body {
   0% { filter: hue-rotate(0deg); }
   100% { filter: hue-rotate(360deg); }
 }
-
 
 
 /* === Glassmorphism Container === */

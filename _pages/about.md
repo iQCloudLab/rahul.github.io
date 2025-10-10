@@ -41,7 +41,7 @@ redirect_from:
   background: linear-gradient(90deg, #3a95f2, #5ee6ff);
   color: white;
   text-align: center;
-  padding: 12px;
+  padding: 7px;
   font-weight: 600;
   letter-spacing: 0.5px;
   font-size: 1.1rem;
@@ -135,7 +135,7 @@ redirect_from:
 .announcement-header {
   background: linear-gradient(90deg, #5eb8ff, #3a95f2, #5ee6ff);
   text-align: center;
-  padding: 10px 0;
+  padding: 7px 0;
   color: white;
   font-size: 1.25rem;
   font-weight: 600;
@@ -248,8 +248,7 @@ redirect_from:
       <li>🔹 Quantum Cloud Systems</li>
       <li>🔹 AI-driven IoT Applications</li>
     </ul>
-    <p>Join our innovation-driven environment to explore next-gen computing!</p>
-    <a href="#" class="hiring-btn">Apply Now →</a>
+    <p>Join our innovation-driven environment to explore next-gen computing!</p>    
   </div>
 </div>
 

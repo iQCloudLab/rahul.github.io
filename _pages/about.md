@@ -61,7 +61,7 @@ redirect_from:
 
 /* === Content Section === */
 .hiring-content {
-  padding: 6px 4px ;
+  padding: 6px 2px ;
   text-align: center;
   color: #1a2a3a;
   font-size: 0.95rem;

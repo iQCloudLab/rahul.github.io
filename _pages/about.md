@@ -139,7 +139,7 @@ redirect_from:
 
 <!-- === Futuristic Announcement Box (Light Theme) === -->
 <div class="announcement-box">
-  <div class="announcement-header">✨ Research Lab Updates</div>
+  <div class="announcement-header">✨ Recent iQCloudLab Highlights</div>
   <div class="announcement-content">
     <div class="scroll-area">
       <div class="announcement-item"><span class="icon">🚀</span> <strong>Publication:</strong> Quantum–Edge Resource Scheduling accepted at IEEE CloudNet 2025.</div>

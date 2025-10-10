@@ -92,7 +92,7 @@ h1 {
   <h1>📚 My Research Publications</h1>
   <div id="publications"></div>
 </div>
-
+{% row %}
 <script>
 /* === Embedded BibTeX (You can paste your .bib contents here) === */
 const bibtexData = `
@@ -157,6 +157,7 @@ function renderPublications(entries) {
 const entries = parseBibTeX(bibtexData);
 renderPublications(entries);
 </script>
+{% endrow %}
 </body>
 
 

@@ -1,0 +1,25 @@
+# main links links
+main:
+  - title: "Home"
+    url: /about/    
+
+  - title: "Publications"
+    url: /publications/  
+
+  - title: "Projects"
+    url: /research/  
+    
+  - title: "Teaching"
+    url: /teaching/
+        
+  - title: "Achievements"
+    url: /awards/
+    
+  - title: "Services"
+    url: /services/
+    
+  - title: "Students"
+    url: /students/
+
+  - title: "Contacts"
+    url: /contacts/

@@ -18,8 +18,8 @@ redirect_from:
 .hiring-box {
   position: absolute;;
   top: 130px;
-  right: 40px;
-  width: 380px;
+  right: 30px;
+  width: 400px;
   background: rgba(255, 255, 255, 0.85);
   border: 1px solid rgba(90, 180, 255, 0.3);
   border-radius: 16px;
@@ -242,9 +242,9 @@ redirect_from:
 <div class="hiring-box">
   <div class="hiring-header">🎓 Student Hiring</div>
   <div class="hiring-content">
-    <p> I'm seeking motivated students for research in:</p>
-    <ul style="list-style: none; padding: 0; margin: 0; text-align: center;">
-      <li>🔹 Agentic-based (LLM) Scheduling for Quantum Cloud & Edge Computing</li>
+    <p> I'm seeking motivated students for PhD & master, research in:</p>
+    <ul >
+      <li>🔹  Quantum Cloud & Edge Computing</li>
       <li>🔹 Agentic-based (LLM) Scheduling </li>
       <li>🔹 AI-driven IoT Applications </li>
     </ul>

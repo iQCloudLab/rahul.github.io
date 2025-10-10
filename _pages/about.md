@@ -65,7 +65,7 @@ redirect_from:
   text-align: center;
   color: #1a2a3a;
   font-size: 0.95rem;
-  line-height: .8;
+  line-height: 1.2;
 }
 
 .hiring-content strong {
@@ -243,9 +243,9 @@ redirect_from:
   <div class="hiring-header">🎓 Student Hiring</div>
   <div class="hiring-content">
     <p> I'm seeking students for PhD & master, research in:</p>
-      <ul style="list-style: none; padding: 0; margin: 0; text-align: right;">
-      <li>🔹 Distributed & Edge Computing</li>
-      <li>🔹 Quantum Cloud Systems</li>
+      <ul style="list-style: none; padding: 0; margin: 0; text-align: center;">
+      <li>🔹 Quantum Cloud & Edge Computing</li>
+      <li>🔹 Agentic-based (LLM) Scheduling</li>
       <li>🔹 AI-driven IoT Applications</li>
     </ul>       
     <p> <strong> Mail me </strong>  your CV to join our innovation-driven environment to explore next-gen computing!</p>    

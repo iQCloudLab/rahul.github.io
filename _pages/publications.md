@@ -4,22 +4,7 @@ title:
 permalink: /publications/
 author_profile: true
 ---
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Futuristic Publications Showcase</title>
 <style>
-body {
-  background: linear-gradient(135deg, #f7faff, #eef4ff);
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
-  padding: 40px;
-}
 /* === Header === */
 .pub-header {
   font-size: 2rem;
@@ -124,7 +109,7 @@ body {
   box-shadow: 0 0 10px rgba(80,180,255,0.6);
 }
 </style>
-</head>
+
 
 <body>
   <div class="pub-header">📚 Journal Publications</div>
@@ -182,7 +167,7 @@ fetch("publications.bib")
   .catch(err => console.error("Error loading BibTeX:", err));
 </script>
 </body>
-</html>
+
 
 
 

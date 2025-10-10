@@ -17,9 +17,9 @@ redirect_from:
 /* === Announcement Box Container === */
 .hiring-box {
   position: absolute;;
-  top: 130px;
-  right: 30px;
-  width: 400px;
+  top: 136px;
+  right: 20px;
+  width: 440px;
   background: rgba(255, 255, 255, 0.85);
   border: 1px solid rgba(90, 180, 255, 0.3);
   border-radius: 16px;
@@ -61,11 +61,11 @@ redirect_from:
 
 /* === Content Section === */
 .hiring-content {
-  padding: 7px 10px;
+  padding: 10px ;
   text-align: center;
   color: #1a2a3a;
   font-size: 0.95rem;
-  line-height: .5;
+  line-height: .8;
 }
 
 .hiring-content strong {

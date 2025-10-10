@@ -111,7 +111,7 @@ author_profile: true
 </style>
 
 
-<body>
+
   <div class="pub-header">📚 Journal Publications</div>
   <div id="publications" class="pub-grid"></div>
 
@@ -166,7 +166,7 @@ fetch("publications.bib")
   })
   .catch(err => console.error("Error loading BibTeX:", err));
 </script>
-</body>
+
 
 
 

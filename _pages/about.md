@@ -61,11 +61,11 @@ redirect_from:
 
 /* === Content Section === */
 .hiring-content {
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   color: #1a2a3a;
   font-size: 0.95rem;
-  line-height: 1.5;
+  line-height: .5;
 }
 
 .hiring-content strong {

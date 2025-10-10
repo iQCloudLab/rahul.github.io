@@ -89,7 +89,7 @@ redirect_from:
 /* === Individual Announcement === */
 .announcement-item {
   border-bottom: 1px solid rgba(150, 180, 255, 0.2);
-  padding: 10px 0;
+  padding: 7px 0;
   font-size: 0.95rem;
   display: flex;
   align-items: center;

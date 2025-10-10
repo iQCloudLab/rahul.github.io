@@ -36,7 +36,7 @@ redirect_from:
 .announcement-header {
   background: linear-gradient(90deg, #5eb8ff, #3a95f2, #5ee6ff);
   text-align: center;
-  padding: 14px 0;
+  padding: 10px 0;
   color: white;
   font-size: 1.25rem;
   font-weight: 600;

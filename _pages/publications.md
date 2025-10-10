@@ -89,7 +89,7 @@ h1 {
 
 <body>
 <div class="publications-container">
-  <h1>📚 My Research Publications</h1>
+  <h1>📚 Research Publications</h1>
   <div id="publications"></div>
 </div>
 {% raw %}

@@ -95,6 +95,7 @@ h1 {
 
 {% raw %}
 <script>
+/* === Embedded BibTeX (You can paste your .bib contents here) === */
 const bibtexData = `
 @article{zhang2025quantum,
   title = {Quantum–Edge Hybrid Resource Management Framework for Smart IoT},
@@ -106,70 +107,59 @@ const bibtexData = `
 @article{wei2024dynamic,
   title = {Dynamic Task Offloading in Multi-tier Cloud–Edge–IoT Environments},
   author = {Wei, L. and Kumar, A. and Zhang, M.},
-  journal = {Springer Internet of Things Journal},
+  journal = {IEEE Internet of Things Journal},
   year = {2024},
   url = {https://doi.org/10.xxxx/iotj.2024.12345}
 }
 @article{miao2023quantum,
   title = {Hybrid Quantum-Classical Scheduling Framework for Distributed IoT Networks},
   author = {Miao, J. and Zhang, M.},
-  journal = {Elsevier Future Generation Computer Systems},
+  journal = {Future Generation Computer Systems},
   year = {2023},
   url = {https://doi.org/10.xxxx/fgcs.2023.6789}
 }
 `;
 
+/* === Simple BibTeX Parser === */
 function parseBibTeX(bib) {
-  const entries = bib.split('@').slice(1);
+  const entries = bib.split("@").slice(1);
   return entries.map(entry => {
     const type = entry.match(/^\w+/)?.[0] || "";
     const fields = {};
-    // improved regex: allows commas and extra spaces
-    const matches = entry.matchAll(/(\w+)\s*=\s*[{"]([^"}]+)[}"],?/g);
-    for (const match of matches) {
-      fields[match[1].toLowerCase()] = match[2].trim();
-    }
+    entry.split("\n").forEach(line => {
+      const match = line.match(/(\w+)\s*=\s*[{"]([^"}]+)[}"]/);
+      if (match) fields[match[1].toLowerCase()] = match[2];
+    });
     return { type, fields };
   });
 }
 
-function getBadge(journal) {
-  if (!journal) return "";
-  const j = journal.toLowerCase();
-  if (j.includes("ieee")) return '<span class="badge IEEE">IEEE</span>';
-  if (j.includes("springer")) return '<span class="badge Springer">Springer</span>';
-  if (j.includes("elsevier")) return '<span class="badge Elsevier">Elsevier</span>';
-  if (j.includes("arxiv")) return '<span class="badge arXiv">arXiv</span>';
-  return "";
-}
-
+/* === Render === */
 function renderPublications(entries) {
-  const container = document.getElementById("pubList");
-  container.innerHTML = "";
-  entries.sort((a,b)=>(b.fields.year||0)-(a.fields.year||0));
-
+  const container = document.getElementById("publications");
+  entries.sort((a, b) => (b.fields.year || 0) - (a.fields.year || 0));
   entries.forEach(entry => {
-    const f = entry.fields;
     const div = document.createElement("div");
     div.className = "pub-card";
     div.innerHTML = `
-      <div class="pub-title">${getBadge(f.journal)} ${f.title || "Untitled"}</div>
-      <div class="pub-authors">${f.author || ""}</div>
+      <div class="pub-title">${entry.fields.title || "Untitled"}</div>
+      <div class="pub-authors">${entry.fields.author || ""}</div>
       <div class="pub-meta">
-        ${f.journal || ""} 
-        ${f.year ? `<span class="pub-year">${f.year}</span>` : ""}
+        ${entry.fields.journal || ""} 
+        <span class="pub-year">${entry.fields.year || ""}</span>
       </div>
-      ${f.url ? `<div class="pub-link"><a href="${f.url}" target="_blank">🔗 View Paper</a></div>` : ""}
+      <div class="pub-link">${entry.fields.url ? `<a href="${entry.fields.url}" target="_blank">🔗 View Paper</a>` : ""}</div>
     `;
     container.appendChild(div);
   });
 }
 
-// === Run ===
+/* === Run === */
 const entries = parseBibTeX(bibtexData);
 renderPublications(entries);
 </script>
 {% endraw %}
+</body>
 
 
 

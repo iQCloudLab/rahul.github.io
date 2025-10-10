@@ -92,6 +92,7 @@ h1 {
   <h1>📚 Research Publications</h1>
   <div id="publications"></div>
 </div>
+
 {% raw %}
 <script>
 /* === Embedded BibTeX (You can paste your .bib contents here) === */

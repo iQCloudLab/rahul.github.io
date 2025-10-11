@@ -8,186 +8,110 @@ author_profile: true
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>🚀 Research Publications</title>
+<title>📚 My Research Publications</title>
 <style>
 body {
   font-family: "Inter", "Segoe UI", sans-serif;
-  background: radial-gradient(circle at top, #f8fbff, #e6f0ff);
-  color: #111;
+  background: linear-gradient(135deg, #f7f9fc, #e8f0ff);
   margin: 0;
-  padding: 0;
+  padding: 40px;
 }
-/* ===== Container ===== */
-.pub-container {
-  max-width: 1000px;
-  margin: 60px auto;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(16px);
-  border-radius: 22px;
-  box-shadow: 0 10px 45px rgba(0, 153, 255, 0.2);
-  padding: 50px 55px;
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+  padding: 30px;
 }
-/* ===== Title ===== */
-.pub-container h1 {
+h1 {
   text-align: center;
-  font-size: 2.3rem;
-  font-weight: 700;
-  background: linear-gradient(90deg, #007cf0, #00dfd8, #007cf0);
+  background: linear-gradient(90deg,#007cf0,#00dfd8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradient 6s infinite linear;
 }
-@keyframes gradient {
-  from { background-position: 0%; }
-  to { background-position: 200%; }
-}
-/* ===== Filters ===== */
-.pub-filters {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 25px 0;
-  gap: 12px;
-}
-.pub-filters input,
-.pub-filters select {
-  padding: 10px 14px;
-  border: 1px solid #cde3f9;
-  border-radius: 8px;
-  background: #fff;
-  font-size: 0.95rem;
-}
-/* ===== Publication Card ===== */
 .pub-card {
-  background: white;
-  border-radius: 14px;
-  padding: 18px 24px;
-  margin-bottom: 18px;
   border-left: 4px solid #00bcd4;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
-  transition: 0.3s ease;
+  padding: 12px 18px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background: #fafafa;
+  transition: all 0.3s ease;
 }
 .pub-card:hover {
-  transform: translateY(-4px);
-  border-left-color: #007cf0;
-  box-shadow: 0 8px 22px rgba(0, 120, 255, 0.15);
+  background: #eef7ff;
+  transform: translateY(-3px);
 }
-/* ===== Text ===== */
-.pub-title {
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: #004f92;
-}
-.pub-authors {
-  color: #444;
-  font-size: 0.92rem;
-  margin-top: 3px;
-}
-.pub-meta {
-  color: #666;
-  font-size: 0.9rem;
-  margin-top: 6px;
-}
-.pub-year {
-  float: right;
-  color: #007cf0;
-  font-weight: bold;
-}
-.pub-link a {
-  text-decoration: none;
-  color: #00bcd4;
-}
-.pub-link a:hover {
-  text-decoration: underline;
-}
-/* Glow Badge */
-.badge {
-  display: inline-block;
-  padding: 3px 9px;
-  border-radius: 6px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: white;
-  background: linear-gradient(90deg, #007cf0, #00dfd8);
-  box-shadow: 0 0 8px rgba(0, 200, 255, 0.6);
-  margin-right: 6px;
-}
+.pub-title { font-weight: 600; color: #004f92; }
+.pub-authors { color: #333; font-size: 0.9rem; }
+.pub-meta { color: #666; font-size: 0.85rem; }
+.pub-year { float: right; color: #007cf0; font-weight: bold; }
+.pub-link a { text-decoration: none; color: #00bcd4; }
+.pub-link a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
-
-<div class="pub-container">
-  <h1>🚀 My Research Publications</h1>
-  
-  <div class="pub-filters">
-    <input id="searchInput" type="text" placeholder="🔍 Search by title or author...">
-    <select id="yearFilter"><option value="">All Years</option></select>
-  </div>
-
-  <div id="pubList">Loading publications...</div>
+<div class="container">
+  <h1>📚 My Research Publications</h1>
+  <div id="pubList"></div>
 </div>
 
 <script>
-// === Replace with your Google Scholar ID ===
-const SCHOLAR_ID = "kvwUY_MAAAAJ"; 
-const API_URL = `https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_ID}&api_key=a8b60dd4c831320a28917e137809fa4e99692cbbf2415da2700e509e609ebdb3`;
+// 👇 Paste your BibTeX here directly
+const bibData = `
+@article{zhang2025quantum,
+  title = {Quantum–Edge Hybrid Resource Management Framework for Smart IoT},
+  author = {Zhang, M. and Wei, L. and Li, Q.},
+  journal = {IEEE Transactions on Cloud Computing},
+  year = {2025},
+  url = {https://doi.org/10.xxxx/ieee.tcc.2025.001}
+}
+@article{wei2024dynamic,
+  title = {Dynamic Task Offloading in Multi-tier Cloud–Edge–IoT Environments},
+  author = {Wei, L. and Kumar, A. and Zhang, M.},
+  journal = {IEEE Internet of Things Journal},
+  year = {2024},
+  url = {https://doi.org/10.xxxx/iotj.2024.12345}
+}
+@article{miao2023quantum,
+  title = {Hybrid Quantum-Classical Scheduling Framework for Distributed IoT Networks},
+  author = {Miao, J. and Zhang, M.},
+  journal = {Future Generation Computer Systems},
+  year = {2023},
+  url = {https://doi.org/10.xxxx/fgcs.2023.6789}
+}
+`;
 
-// === Fetch Data ===
-async function loadPublications() {
-  try {
-    const res = await fetch(API_URL);
-    const data = await res.json();
-    const pubs = data.articles || [];
-    renderPublications(pubs);
-  } catch (e) {
-    document.getElementById("pubList").innerHTML = 
-      "<p>⚠️ Unable to load Google Scholar data. Please check API key and ID.</p>";
-  }
+function parseBibTeX(bib) {
+  return bib.split('@').slice(1).map(entry => {
+    const fields = {};
+    entry.split('\n').forEach(line => {
+      const match = line.match(/(\w+)\s*=\s*[{"]([^"}]+)[}"]/);
+      if (match) fields[match[1].toLowerCase()] = match[2];
+    });
+    return { fields };
+  });
 }
 
-// === Render Function ===
-function renderPublications(pubs) {
-  const list = document.getElementById("pubList");
-  const yearSet = new Set();
-
-  list.innerHTML = "";
-  pubs.forEach(p => yearSet.add(p.year));
-
-  pubs.sort((a, b) => (b.year || 0) - (a.year || 0));
-  pubs.forEach(pub => {
-    const div = document.createElement("div");
-    div.className = "pub-card";
+function renderPublications(entries) {
+  const container = document.getElementById('pubList');
+  container.innerHTML = '';
+  entries.sort((a,b)=>(b.fields.year||0)-(a.fields.year||0));
+  entries.forEach(entry => {
+    const f = entry.fields;
+    const div = document.createElement('div');
+    div.className = 'pub-card';
     div.innerHTML = `
-      <div class="pub-title"><span class="badge">AI</span> ${pub.title}</div>
-      <div class="pub-authors">${pub.authors || ""}</div>
-      <div class="pub-meta">${pub.publication || ""} 
-        <span class="pub-year">${pub.year || ""}</span></div>
-      ${pub.link ? `<div class="pub-link"><a href="${pub.link}" target="_blank">🔗 View Paper</a></div>` : ""}
+      <div class="pub-title">${f.title||''}</div>
+      <div class="pub-authors">${f.author||''}</div>
+      <div class="pub-meta">${f.journal||''} <span class="pub-year">${f.year||''}</span></div>
+      ${f.url?`<div class="pub-link"><a href="${f.url}" target="_blank">🔗 View Paper</a></div>`:''}
     `;
-    list.appendChild(div);
+    container.appendChild(div);
   });
-
-  const yearFilter = document.getElementById("yearFilter");
-  [...yearSet].sort((a, b) => b - a).forEach(y => {
-    const opt = document.createElement("option");
-    opt.value = y;
-    opt.textContent = y;
-    yearFilter.appendChild(opt);
-  });
-
-  yearFilter.onchange = () => {
-    const selected = yearFilter.value;
-    renderPublications(selected ? pubs.filter(p => p.year == selected) : pubs);
-  };
 }
 
-loadPublications();
+renderPublications(parseBibTeX(bibData));
 </script>
-
 </body>
 </html>
-
-
-
-

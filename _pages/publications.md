@@ -6,19 +6,14 @@ author_profile: true
 ---
 
 <style>
-body {
-  font-family: "Inter", "Segoe UI", sans-serif;
-  background: linear-gradient(135deg, #f7f9fc, #e8f0ff);
-  margin: 0;
-  padding: 40px;
-}
+
 .container {
-  max-width: 900px;
+  max-width: 700px;
   margin: auto;
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 12px 40px rgba(0,0,0,0.1);
-  padding: 30px;
+  padding: 10px;
 }
 h1 {
   text-align: center;

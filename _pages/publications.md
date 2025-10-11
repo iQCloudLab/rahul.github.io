@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: page
 title: "📚 Publications"
 permalink: /publications/
 author_profile: true
@@ -9,8 +9,8 @@ author_profile: true
   <h1>📘 Research Publications</h1>
   
   <!-- Statistics -->
-  <div class="pub-stats">
-    {% assign total_pubs = site.data.publications | size %}
+  <div class="pub-stats"> 
+      {% assign total_pubs = site.data.publications | size %}
     {% assign journal_pubs = site.data.publications | where: "type", "journal" | size %}
     {% assign conference_pubs = site.data.publications | where: "type", "conference" | size %}
     

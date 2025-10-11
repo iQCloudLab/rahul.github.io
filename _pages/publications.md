@@ -4,16 +4,21 @@ title:
 permalink: /publications/
 author_profile: true
 ---
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>🚀 Research Publications</title>
 <style>
 body {
   font-family: "Inter", "Segoe UI", sans-serif;
-  background: linear-gradient(180deg, #f0f7ff, #e6f0ff, #f8fbff);
+  background: radial-gradient(circle at top, #f8fbff, #e6f0ff);
   color: #111;
   margin: 0;
   padding: 0;
 }
-/* Container */
+/* ===== Container ===== */
 .pub-container {
   max-width: 1000px;
   margin: 60px auto;
@@ -23,22 +28,21 @@ body {
   box-shadow: 0 10px 45px rgba(0, 153, 255, 0.2);
   padding: 50px 55px;
 }
-/* Title */
+/* ===== Title ===== */
 .pub-container h1 {
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 2.3rem;
   font-weight: 700;
   background: linear-gradient(90deg, #007cf0, #00dfd8, #007cf0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: 200% auto;
-  animation: gradient 5s linear infinite;
+  animation: gradient 6s infinite linear;
 }
 @keyframes gradient {
-  from { background-position: 0% center; }
-  to { background-position: 200% center; }
+  from { background-position: 0%; }
+  to { background-position: 200%; }
 }
-/* Filters */
+/* ===== Filters ===== */
 .pub-filters {
   display: flex;
   justify-content: space-between;
@@ -54,11 +58,11 @@ body {
   background: #fff;
   font-size: 0.95rem;
 }
-/* Publication Cards */
+/* ===== Publication Card ===== */
 .pub-card {
   background: white;
   border-radius: 14px;
-  padding: 20px 24px;
+  padding: 18px 24px;
   margin-bottom: 18px;
   border-left: 4px solid #00bcd4;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
@@ -69,7 +73,7 @@ body {
   border-left-color: #007cf0;
   box-shadow: 0 8px 22px rgba(0, 120, 255, 0.15);
 }
-/* Text */
+/* ===== Text ===== */
 .pub-title {
   font-size: 1.05rem;
   font-weight: 600;
@@ -110,7 +114,7 @@ body {
   margin-right: 6px;
 }
 </style>
-
+</head>
 <body>
 
 <div class="pub-container">
@@ -125,10 +129,11 @@ body {
 </div>
 
 <script>
-const SCHOLAR_ID = "kvwUY_MAAAAJ";
-const API_KEY = "a8b60dd4c831320a28917e137809fa4e99692cbbf2415da2700e509e609ebdb3"; // Get free key from serpapi.com
-const API_URL = `https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_ID}&api_key=${API_KEY}`;
+// === Replace with your Google Scholar ID ===
+const SCHOLAR_ID = "kvwUY_MAAAAJ"; 
+const API_URL = `https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_ID}&api_key=a8b60dd4c831320a28917e137809fa4e99692cbbf2415da2700e509e609ebdb3`;
 
+// === Fetch Data ===
 async function loadPublications() {
   try {
     const res = await fetch(API_URL);
@@ -136,11 +141,12 @@ async function loadPublications() {
     const pubs = data.articles || [];
     renderPublications(pubs);
   } catch (e) {
-    document.getElementById("pubList").innerHTML =
-      "<p>⚠️ Unable to load Google Scholar data. Please check API key or ID.</p>";
+    document.getElementById("pubList").innerHTML = 
+      "<p>⚠️ Unable to load Google Scholar data. Please check API key and ID.</p>";
   }
 }
 
+// === Render Function ===
 function renderPublications(pubs) {
   const list = document.getElementById("pubList");
   const yearSet = new Set();
@@ -172,16 +178,7 @@ function renderPublications(pubs) {
 
   yearFilter.onchange = () => {
     const selected = yearFilter.value;
-    const filtered = selected ? pubs.filter(p => p.year == selected) : pubs;
-    renderPublications(filtered);
-  };
-
-  document.getElementById("searchInput").oninput = (e) => {
-    const q = e.target.value.toLowerCase();
-    const filtered = pubs.filter(p =>
-      p.title?.toLowerCase().includes(q) || p.authors?.toLowerCase().includes(q)
-    );
-    renderPublications(filtered);
+    renderPublications(selected ? pubs.filter(p => p.year == selected) : pubs);
   };
 }
 
@@ -189,6 +186,8 @@ loadPublications();
 </script>
 
 </body>
+</html>
+
 
 
 

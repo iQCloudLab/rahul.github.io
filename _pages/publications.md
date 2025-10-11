@@ -40,7 +40,7 @@ author_profile: true
 <script>
 async function loadBibtex() {
   try {
-    const response = await fetch('{{ "/data/publications.bib" | relative_url }}');
+    const response = await fetch('{{ "/assets/bibtex/publications.bib" | relative_url }}');
     const text = await response.text();
     renderPublications(parseBibTeX(text));
   } catch (e) {

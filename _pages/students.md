@@ -44,6 +44,20 @@ redirect_from:
       <p class="student-topic">Edge Computing for Autonomous IoT</p>
       <span class="status completed">Graduated 2025</span>
     </div>
+    <div class="student-card" data-status="ongoing" data-year="2026">
+      <img src="https://via.placeholder.com/100" alt="Li Wei" class="student-photo">
+      <h3>Li Wei</h3>
+      <p class="student-level">PhD Candidate</p>
+      <p class="student-topic">AI-driven Quantum Resource Scheduling</p>
+      <span class="status ongoing">Ongoing</span>
+    </div>
+    <div class="student-card" data-status="completed" data-year="2025">
+      <img src="https://via.placeholder.com/100" alt="Chen Yu" class="student-photo">
+      <h3>Chen Yu</h3>
+      <p class="student-level">PhD (2021–2025)</p>
+      <p class="student-topic">Edge Computing for Autonomous IoT</p>
+      <span class="status completed">Graduated 2025</span>
+    </div>
 
   </div>
 

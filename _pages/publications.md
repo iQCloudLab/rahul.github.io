@@ -4,11 +4,7 @@ title:
 permalink: /publications/
 author_profile: true
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>📚 My Research Publications</title>
+
 <style>
 body {
   font-family: "Inter", "Segoe UI", sans-serif;
@@ -49,7 +45,7 @@ h1 {
 .pub-link a { text-decoration: none; color: #00bcd4; }
 .pub-link a:hover { text-decoration: underline; }
 </style>
-</head>
+
 <body>
 <div class="container">
   <h1>📚 My Research Publications</h1>
@@ -114,4 +110,4 @@ function renderPublications(entries) {
 renderPublications(parseBibTeX(bibData));
 </script>
 </body>
-</html>
+

@@ -4,12 +4,7 @@ title:
 permalink: /publications/
 author_profile: true
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>🚀 My Research Publications</title>
+
 <style>
 body {
   font-family: "Inter", "Segoe UI", sans-serif;
@@ -115,7 +110,6 @@ body {
   margin-right: 6px;
 }
 </style>
-</head>
 <body>
 
 <div class="pub-container">
@@ -194,6 +188,6 @@ loadPublications();
 </script>
 
 </body>
-</html>
+
 
 

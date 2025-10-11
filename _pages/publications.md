@@ -48,7 +48,7 @@ author_profile: true
         .publication-link:hover {
             text-decoration: underline;
         }
-    </style>
+</style>
 
 <body>
     <div class="publications-container">

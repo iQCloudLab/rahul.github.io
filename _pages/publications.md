@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: archive-taxonomy
 title: 
 permalink: /publications/
 author_profile: true

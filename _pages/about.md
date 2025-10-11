@@ -275,60 +275,131 @@ redirect_from:
 </div>
 
 
+## About Me
 
-Biography
-------
-Rahul Yadav  is currently an Associate Professor in the [School of Computer Science](https://www.nottingham.edu.cn/en/science-engineering/departments-schools/cs/home.aspx){:target="_blank"} at the [University of Nottingham, UK (China campus)](https://www.nottingham.edu.cn/en/){:target="_blank"}, where he has also served as an Assistant Professor since 2019. Before this, he was a Postdoctoral Research Fellow at the [Norwegian University of Science and Technology (NTNU)](https://www.ntnu.edu/){:target="_blank"}, the [National University of Singapore (NUS)](https://www.nus.edu.sg/){:target="_blank"}, and [Nanyang Technological University (NTU), Singapore](https://www.ntu.edu.sg/){:target="_blank"}. He also worked in different engineering colleges as a lecturer and in the IT industry as a software professional. He has over 14 years of experience in teaching and research, as well as 1.5 years of industrial experience at IBM. He has completed all his PhD, Master of Engineering, and Bachelor of Technology in Computer Science and Engineering. He also completed a Postgraduate Certificate in Higher Education (PGCHE) in 2023. He received the prestigious Erasmus Mundus Postdoctoral Fellowship from the European Commission, the ERCIM Alain Bensoussan Fellowship from the European Union, and the SERB OPD Fellowship from the Department of Science and Technology, Government of India. He has received the 2020 IEEE Systems Journal Best Paper Award. He has received six research grants for conducting research-based projects, three of them as a Principal Investigator (PI). He also received many travel grants to attend conferences and doctoral colloquiums. He is the author of over 70 scholarly research papers that have appeared in prestigious journals, conferences, book chapters, and IT magazines. He has also published one authored and three edited books. He is the inventor of five patents. He has organized the ICIoT2024 and ICDSEC2025 conferences with a team. He has also chaired numerous conference committees, collaborated with a team to organize short-term courses, and delivered a few Keynote and Invited talks at international conferences and institutions. He has also served on the editorial boards of several international journals. He is a Senior Member of IEEE, a Senior Fellow of the Higher Education Academy (SFHEA), UK, a Fellow of the Institution of Electronics & Telecommunication Engineers (FIETE), India, and a Chartered Engineer (CEng) from the Engineering Council, UK. The Ningbo Municipal Government in China has recognised him as a High-Level Talent. Dr. Kar mainly teaches Computer Networks and programming-related modules. His research areas include Ad Hoc Networks, Wireless Sensor Networks, Internet of Things, Content-Centric Networking, Blockchain, BigData, and Quantum Communication.
+<div class="profile-section">
 
-The full CV is available [here](/files/Pushpendu_Kar_CV.pdf){:target="_blank"}.
+  <div class="bio-card">
+    <h2>👤 Bio</h2>
+    <p>
+      I am a researcher in distributed computing, edge-cloud integration, and hybrid quantum-classical systems.
+      Passionate about IoT, smart manufacturing, and building next-generation computing frameworks.
+    </p>
+  </div>
 
-Professional Experiences (17 Yrs+)
-------
-<ul>
-  <li>Associate Professor, School of Computer Science, University of Nottingham, UK (China campus) (Aug 2025 - Present)</li>
-  <li>Assistant Professor, School of Computer Science, University of Nottingham, UK (China campus) (Mar 2019 - July 2025)</li>
-  <li>Research Fellow, Dept. of ICT and Natural Sciences, Norwegian University of Science and Technology, Norway (Feb 2018 - Jan 2019)</li>
-  <li>Postdoctoral Research Fellow, Dept. of Electrical and Computer Engineering, National University of Singapore, Singapore (Nov 2016 - Jan 2018)</li>
-  <li>Postdoctoral Research Fellow, Energy Research Institute, Nanyang Technological University, Singapore (Nov 2015 - Nov 2016)</li>
-  <li>Researcher, Dept. of Electronics and Electrical Communication Engineering, IIT Kharagpur, India (Apr 2014 - Aug 2014)</li>
-  <li>Visiting Lecturer, AMIE Course, Institute of Engineers (Kharagpur Local Center), India (Oct 2011 - Nov 2013)</li>
-  <li>Senior Project Assistant, Dept. of Computer Science and Engineering, IIT Kharagpur, India (Oct 2011 - Mar 2013)</li>
-  <li>Associate System Engineer, IBM, India (Jun 2010 - Oct 2011)</li>
-  <li>Lecturer, Dept. of Information Technology, Birbhum Institute of Engineering & Technology, India (Apr 2006 - Jul 2008)</li>
-  <li>Lecturer, Dept. of Computer Science and Engineering, Siliguri Institute of Technology, India (July 2005 - Apr 2006)</li>
-  <li>Visiting Lecturer, Bachelor of Computer Application, IT Center, North Bengal University, India (Aug 2005 - Apr 2006)</li>
-</ul>
+  <div class="experience-card">
+    <h2>💼 Experience</h2>
+    <ul>
+      <li><strong>Postdoctoral Researcher</strong> – Hybrid Quantum Cloud Lab (2024–Present)</li>
+      <li><strong>Research Assistant</strong> – Smart IoT Systems Lab (2022–2024)</li>
+      <li><strong>Intern</strong> – Edge Computing Research Group (2021–2022)</li>
+    </ul>
+  </div>
 
-Academic Qualifications
-------
-<ul>
-  <li>Doctor of Philosophy (<i>Ph.D</i>), Dept. of Computer Science and Engineering, Indian Institute of Technology Kharagpur, India (Jan 2012 - Jan 2016)</li>
-  <li>Master of Engineering (<i>M.E.</i>), Dept. of Computer Science and Engineering, Jadavpur University, India (Jul 2008 - Jun 2010)</li>
-  <li>Bachelor of Technology (<i>B.Tech</i>), Dept. of Computer Science and Engineering, University of Kalyani, India (Jun 2000 - May 2004)</li>
-</ul>
+  <div class="research-card">
+    <h2>🔬 Research Interests</h2>
+    <p>
+      Edge computing, distributed IoT systems, quantum cloud integration, hybrid AUV task scheduling,
+      dynamic task offloading, and smart manufacturing infrastructures.
+    </p>
+  </div>
 
-Professional Qualifications/Memberships
-------
-<ul>
-  <li>Senior Fellow of Higher Education Academy (<i>SFHEA</i>), AdvanceHE, UK, July 2023, Registration No.: PR269780</li>
-  <li>Fellow, The Institution of Electronics & Telecommunication Engineers (<i>IETE</i>), India, September 2023, Registration No.: F-504050</li>
-  <li>Chartered Engineer (<i>CEng</i>), Engineering Council, UK, April 2024, Registration No.: 709992</li>
-  <li>Senior Member, The Institute of Electrical and Electronics Engineers (IEEE), USA, July 2020, Registration No.: 93025879</li>
-  <li>Sun Certified Java Programmer (<i>SCJP</i>) 5.0, Sun Microsystems, USA, March 2009, Registration No.: SW409182</li>
-</ul>
+</div>
 
-Pedagogical Qualifications
-------
-<ul>
-  <li>Postgraduate Certificate in Higher Education (<i>PGCHE</i>)[a master's level teaching qualification] by following the UK Professional Standards Framework (UKPSF) of AdvanceHE, UK, November 2023</li>
-</ul>
+<style>
+/* ===== Container ===== */
+.profile-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
 
-Professional Training
-------
-<ul>
-  <li>Completed eight weeks (21st May 2006 – 14th July 2006) Finishing School program from NIT Durgapur, Durgapur, India, conducted by MHRD in collaboration with AICTE, Department of IT, NASSCOM, and IIT Roorkee, 2006</li>
-  <li>Six months of training on J2EE from “STG International (Regional Office)”, Minto Park, Kolkata, India, 2005</li>
-  <li>Three months of training on JAVA (Core & Advanced) from “CMC Ltd.”, Gariahat, Kolkata, India, 2005</li>
-  <li>Three weeks (4th – 23rd January 2010) UGC sponsor refresher course on Wireless Ad-Hoc and Sensor Networks, Jadavpur University, Kolkata, India, 2010</li>
-  <li>Six months of training on Hardware & Networking from “Computer Foundation”, Jadavpur, Kolkata, India, 2004</li>
-</ul>
+/* ===== Common Card Styles ===== */
+.bio-card, .experience-card, .research-card {
+  position: relative;
+  padding: 2rem;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.bio-card:hover, .experience-card:hover, .research-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.45);
+}
+
+/* ===== Neon Header ===== */
+.bio-card h2, .experience-card h2, .research-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, #00f0ff, #007cf0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 5px #00f0ff, 0 0 10px #007cf0;
+}
+
+/* ===== Text ===== */
+.bio-card p, .research-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.experience-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.experience-card li {
+  position: relative;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.experience-card li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #00f0ff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-shadow: 0 0 5px #00f0ff;
+}
+
+/* ===== Animated Background ===== */
+.bio-card::before, .experience-card::before, .research-card::before {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background: conic-gradient(from 0deg, #00f0ff, #007cf0, #00dfd8, #00f0ff);
+  opacity: 0.15;
+  z-index: 0;
+  border-radius: 50%;
+  animation: rotateBG 12s linear infinite;
+}
+
+@keyframes rotateBG {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ===== Position content above background ===== */
+.bio-card > *, .experience-card > *, .research-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 700px) {
+  .profile-section {
+    grid-template-columns: 1fr;
+  }
+}
+</style>

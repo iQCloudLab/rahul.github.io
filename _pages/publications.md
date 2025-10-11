@@ -127,4 +127,3 @@ author_profile: true
         document.addEventListener('DOMContentLoaded', displayPublications);
     </script>
 </body>
-</html>

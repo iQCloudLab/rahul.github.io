@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /students/
 title:
 author_profile: true

@@ -237,7 +237,6 @@ redirect_from:
 </style>
 
 
-
 <!-- === Announcement Box === -->
 <div class="hiring-box">
   <div class="hiring-header">🎓 Student Hiring</div>
@@ -275,131 +274,177 @@ redirect_from:
 </div>
 
 
-## About Me
+<style>
+/* === Futuristic Profile Section === */
+.profile-tabs {
+  width: 90%;
+  max-width: 900px;
+  margin: 60px auto;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 18px;
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(150, 200, 255, 0.4);
+  box-shadow: 0 10px 35px rgba(150, 200, 255, 0.35);
+  overflow: hidden;
+  position: relative;
+  animation: fadeInUp 1.2s ease;
+}
 
-<div class="profile-section">
+/* === Glowing Animated Border === */
+.profile-tabs::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+  padding: 1px;
+  background: linear-gradient(135deg, #5ee6ff, #3a95f2, #0078d7);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: borderShift 8s linear infinite;
+}
 
-  <div class="bio-card">
-    <h2>👤 Bio</h2>
+@keyframes borderShift {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+/* === Tab Header === */
+.tab-header {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(90deg, #5eb8ff, #3a95f2, #5ee6ff);
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+}
+
+.tab-header div {
+  flex: 1;
+  text-align: center;
+  padding: 12px 0;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.tab-header div:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* === Active Tab Indicator === */
+.tab-header .active {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  box-shadow: inset 0 -2px 0 #fff;
+}
+
+/* === Tab Content Area === */
+.tab-content {
+  padding: 24px 30px;
+  color: #1a2a3a;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  animation: fadeIn 0.5s ease;
+  background: rgba(255,255,255,0.6);
+}
+
+/* === Headings === */
+.tab-content h3 {
+  color: #005fa3;
+  margin-top: 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* === Lists === */
+.tab-content ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.tab-content ul li {
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 0.6rem;
+}
+
+.tab-content ul li::before {
+  content: "🔹";
+  position: absolute;
+  left: 0;
+  color: #3a95f2;
+}
+
+/* === Animations === */
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+</style>
+
+<!-- === FUTURISTIC PROFILE TABS === -->
+<div class="profile-tabs">
+  <div class="tab-header">
+    <div class="tab-link active" onclick="openTab(event, 'bio')">👤 Bio</div>
+    <div class="tab-link" onclick="openTab(event, 'exp')">💼 Experience</div>
+    <div class="tab-link" onclick="openTab(event, 'edu')">🎓 Education</div>
+    <div class="tab-link" onclick="openTab(event, 'research')">🔬 Research Interests</div>
+  </div>
+
+  <div class="tab-content" id="bio">
+    <h3>About Me</h3>
     <p>
-      I am a researcher in distributed computing, edge-cloud integration, and hybrid quantum-classical systems.
-      Passionate about IoT, smart manufacturing, and building next-generation computing frameworks.
+      Dr. <strong>Miao Zhang</strong> is a researcher in the intersection of 
+      <strong>Quantum Computing</strong>, <strong>Edge–Cloud Systems</strong>, 
+      and <strong>AI-driven IoT Infrastructure</strong>.
+      Her research focuses on building scalable and intelligent resource 
+      scheduling frameworks for next-generation distributed networks.
     </p>
   </div>
 
-  <div class="experience-card">
-    <h2>💼 Experience</h2>
+  <div class="tab-content" id="exp" style="display:none;">
+    <h3>Professional Experience</h3>
     <ul>
-      <li><strong>Postdoctoral Researcher</strong> – Hybrid Quantum Cloud Lab (2024–Present)</li>
-      <li><strong>Research Assistant</strong> – Smart IoT Systems Lab (2022–2024)</li>
-      <li><strong>Intern</strong> – Edge Computing Research Group (2021–2022)</li>
+      <li><strong>Lead Researcher</strong> – iQCloudLab, 2024–Present</li>
+      <li><strong>Research Associate</strong> – Smart Edge Computing Lab, 2021–2024</li>
+      <li><strong>Visiting Scholar</strong> – Quantum Systems Network, Tokyo, 2022</li>
     </ul>
   </div>
 
-  <div class="research-card">
-    <h2>🔬 Research Interests</h2>
-    <p>
-      Edge computing, distributed IoT systems, quantum cloud integration, hybrid AUV task scheduling,
-      dynamic task offloading, and smart manufacturing infrastructures.
-    </p>
+  <div class="tab-content" id="edu" style="display:none;">
+    <h3>Education</h3>
+    <ul>
+      <li>Ph.D. in Computer Science – Global Institute of Technology, 2023</li>
+      <li>M.Sc. in Cloud & Edge Systems – University of Technology, 2020</li>
+      <li>B.Sc. in Information Engineering – Tech University, 2018</li>
+    </ul>
   </div>
 
+  <div class="tab-content" id="research" style="display:none;">
+    <h3>Research Interests</h3>
+    <ul>
+      <li>Quantum–Edge Hybrid Computing</li>
+      <li>Agentic LLM-based Scheduling</li>
+      <li>AI-driven IoT Systems</li>
+      <li>Fog–Cloud Resource Optimization</li>
+      <li>Next-Generation Distributed Systems</li>
+    </ul>
+  </div>
 </div>
 
-<style>
-/* ===== Container ===== */
-.profile-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  max-width: 1000px;
-  margin: 2rem auto;
+<script>
+function openTab(evt, tabId) {
+  document.querySelectorAll(".tab-content").forEach(tab => tab.style.display = "none");
+  document.querySelectorAll(".tab-link").forEach(link => link.classList.remove("active"));
+  document.getElementById(tabId).style.display = "block";
+  evt.currentTarget.classList.add("active");
 }
-
-/* ===== Common Card Styles ===== */
-.bio-card, .experience-card, .research-card {
-  position: relative;
-  padding: 2rem;
-  border-radius: 15px;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  color: #fff;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-}
-
-.bio-card:hover, .experience-card:hover, .research-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.45);
-}
-
-/* ===== Neon Header ===== */
-.bio-card h2, .experience-card h2, .research-card h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  background: linear-gradient(90deg, #00f0ff, #007cf0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 5px #00f0ff, 0 0 10px #007cf0;
-}
-
-/* ===== Text ===== */
-.bio-card p, .research-card p {
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-.experience-card ul {
-  list-style: none;
-  padding: 0;
-}
-
-.experience-card li {
-  position: relative;
-  margin-bottom: 1rem;
-  padding-left: 1.5rem;
-}
-
-.experience-card li::before {
-  content: '•';
-  position: absolute;
-  left: 0;
-  color: #00f0ff;
-  font-weight: bold;
-  font-size: 1.2rem;
-  text-shadow: 0 0 5px #00f0ff;
-}
-
-/* ===== Animated Background ===== */
-.bio-card::before, .experience-card::before, .research-card::before {
-  content: '';
-  position: absolute;
-  width: 200%;
-  height: 200%;
-  top: -50%;
-  left: -50%;
-  background: conic-gradient(from 0deg, #00f0ff, #007cf0, #00dfd8, #00f0ff);
-  opacity: 0.15;
-  z-index: 0;
-  border-radius: 50%;
-  animation: rotateBG 12s linear infinite;
-}
-
-@keyframes rotateBG {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* ===== Position content above background ===== */
-.bio-card > *, .experience-card > *, .research-card > * {
-  position: relative;
-  z-index: 1;
-}
-
-/* ===== Responsive ===== */
-@media (max-width: 700px) {
-  .profile-section {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
+</script>

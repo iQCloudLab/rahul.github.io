@@ -1,129 +1,82 @@
 ---
 layout: archive
-title: 
+title: "📚 Publications"
 permalink: /publications/
 author_profile: true
 ---
 
 <style>
-        .publications-container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-        }        
-        .publication-item {
-            margin-bottom: 25px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #eee;
-        }        
-        .publication-title {
-            color: #2c5aa0;
-            font-size: 1.2rem;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }        
-        .publication-authors {
-            color: #555;
-            margin-bottom: 5px;
-        }        
-        .publication-venue {
-            color: #777;
-            font-style: italic;
-            margin-bottom: 5px;
-        }        
-        .publication-year {
-            color: #999;
-            font-weight: bold;
-        }        
-        .publication-links {
-            margin-top: 8px;
-        }        
-        .publication-link {
-            display: inline-block;
-            margin-right: 15px;
-            color: #2c5aa0;
-            text-decoration: none;
-        }        
-        .publication-link:hover {
-            text-decoration: underline;
-        }
+.pub-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+  padding: 40px;
+}
+.pub-card {
+  border-left: 4px solid #00bcd4;
+  background: #fafafa;
+  padding: 12px 20px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.pub-card:hover { background: #eef7ff; transform: translateY(-2px); }
+.pub-title { font-weight: 600; color: #004f92; }
+.pub-authors { color: #333; font-size: 0.9rem; }
+.pub-meta { color: #666; font-size: 0.85rem; }
+.pub-year { float: right; color: #007cf0; font-weight: bold; }
+.pub-link a { text-decoration: none; color: #00bcd4; }
+.pub-link a:hover { text-decoration: underline; }
 </style>
 
-<body>
-    <div class="publications-container">
-        <h1>Publications</h1>
-        <div id="publicationsList">
-            <!-- Publications will be inserted here by JavaScript -->
-        </div>
-    </div>
-    <script>
-        // Simple BibTeX data (replace with your actual BibTeX content)
-        const bibtexData = `
-@article{smith2023ai,
-  title={Artificial Intelligence in Healthcare},
-  author={Smith, John and Doe, Jane and Johnson, Bob},
-  journal={Nature Medicine},
-  year={2023},
-  volume={29},
-  pages={100--115},
-  doi={10.1038/s41591-023-02245-3}
+<div class="pub-container">
+  <h1>📚 My Research Publications</h1>
+  <div id="pubList"></div>
+</div>
+
+{% raw %}
+<script>
+async function loadBibtex() {
+  try {
+    const response = await fetch('{{ "/data/publications.bib" | relative_url }}');
+    const text = await response.text();
+    renderPublications(parseBibTeX(text));
+  } catch (e) {
+    document.getElementById('pubList').innerHTML = "⚠️ Could not load publications.";
+  }
 }
-@inproceedings{jones2022ml,
-  title={Machine Learning for Climate Prediction},
-  author={Jones, Alice and Brown, Charlie and Wilson, David},
-  booktitle={International Conference on Machine Learning},
-  year={2022},
-  pages={500--515}
-}        `;
-        function parseBibTeX(bibtex) {
-            const publications = [];
-            const entries = bibtex.split('@').filter(entry => entry.trim());            
-            entries.forEach(entry => {
-                const typeMatch = entry.match(/^(\w+)\{/);
-                if (!typeMatch) return;                
-                const fields = {};
-                const fieldRegex = /(\w+)\s*=\s*\{([^}]*)\}/g;
-                let match;                
-                while ((match = fieldRegex.exec(entry)) !== null) {
-                    fields[match[1].toLowerCase()] = match[2].replace(/[{}]/g, '');
-                }                
-                publications.push({
-                    title: fields.title || '',
-                    authors: (fields.author || '').split(' and ').join(', '),
-                    journal: fields.journal || fields.booktitle || '',
-                    year: fields.year || '',
-                    volume: fields.volume || '',
-                    pages: fields.pages || '',
-                    doi: fields.doi || ''
-                });
-            });            
-            return publications.sort((a, b) => b.year - a.year);
-        }
-        function displayPublications() {
-            const publications = parseBibTeX(bibtexData);
-            const container = document.getElementById('publicationsList');            
-            container.innerHTML = publications.map(pub => `
-                <div class="publication-item">
-                    <div class="publication-title">${pub.title}</div>
-                    <div class="publication-authors">${pub.authors}</div>
-                    <div class="publication-venue">
-                        ${pub.journal}
-                        ${pub.volume ? `, ${pub.volume}` : ''}
-                        ${pub.pages ? `, pp. ${pub.pages}` : ''}
-                    </div>
-                    <div class="publication-year">${pub.year}</div>
-                    ${pub.doi ? `
-                        <div class="publication-links">
-                            <a href="https://doi.org/${pub.doi}" target="_blank" class="publication-link">
-                                View Publication
-                            </a>
-                        </div>
-                    ` : ''}
-                </div>
-            `).join('');
-        }
-        // Display publications when page loads
-        document.addEventListener('DOMContentLoaded', displayPublications);
-    </script>
-</body>
+
+function parseBibTeX(bib) {
+  return bib.split('@').slice(1).map(entry => {
+    const fields = {};
+    entry.split('\n').forEach(line => {
+      const match = line.match(/(\w+)\s*=\s*[{"]([^"}]+)[}"]/);
+      if (match) fields[match[1].toLowerCase()] = match[2];
+    });
+    return { fields };
+  });
+}
+
+function renderPublications(entries) {
+  const list = document.getElementById("pubList");
+  list.innerHTML = "";
+  entries.sort((a,b)=>(b.fields.year||0)-(a.fields.year||0));
+  entries.forEach(entry => {
+    const f = entry.fields;
+    const div = document.createElement("div");
+    div.className = "pub-card";
+    div.innerHTML = `
+      <div class="pub-title">${f.title || "Untitled"}</div>
+      <div class="pub-authors">${f.author || ""}</div>
+      <div class="pub-meta">${f.journal || ""} <span class="pub-year">${f.year || ""}</span></div>
+      ${f.url ? `<div class="pub-link"><a href="${f.url}" target="_blank">🔗 View Paper</a></div>` : ""}
+    `;
+    list.appendChild(div);
+  });
+}
+
+loadBibtex();
+</script>
+{% endraw %}

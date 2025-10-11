@@ -64,6 +64,20 @@ redirect_from:
       <p class="student-topic">Federated Edge–Cloud Frameworks</p>
       <span class="status completed">Graduated 2024</span>
     </div>
+     <div class="student-card" data-status="ongoing" data-year="2025">
+      <img src="https://via.placeholder.com/100" alt="Hiro Tanaka" class="student-photo">
+      <h3>Hiro Tanaka</h3>
+      <p class="student-level">Master Student</p>
+      <p class="student-topic">LLM-based Scheduling for Quantum Cloud</p>
+      <span class="status ongoing">Ongoing</span>
+    </div>
+    <div class="student-card" data-status="completed" data-year="2024">
+      <img src="https://via.placeholder.com/100" alt="Wang Mei" class="student-photo">
+      <h3>Wang Mei</h3>
+      <p class="student-level">Master (2022–2024)</p>
+      <p class="student-topic">Federated Edge–Cloud Frameworks</p>
+      <span class="status completed">Graduated 2024</span>
+    </div>
 
   </div>
 </section>

@@ -32,15 +32,15 @@ permalink: /publications/
 <style>
 /* ===== Container ===== */
 .publications-list {
-  max-width: 850px;
+  max-width: 800px;
   margin: 2rem auto;
   display: grid;
-  gap: 1.8rem;
+  gap: 1.4rem;
 }
 
 /* ===== Publication Card ===== */
 .publication {
-  padding: 1.8rem 2rem;
+  padding: 1.5rem 1.8rem;
   border-radius: 12px;
   background: linear-gradient(145deg, #f0f4ff, #e8f0ff);
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);

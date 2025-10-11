@@ -1,16 +1,11 @@
 ---
-layout: 
+layout: archive
 title: 
 permalink: /publications/
 author_profile: true
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications</title>
-    <style>
+
+<style>
         .publications-container {
             max-width: 1000px;
             margin: 0 auto;
@@ -54,7 +49,7 @@ author_profile: true
             text-decoration: underline;
         }
     </style>
-</head>
+
 <body>
     <div class="publications-container">
         <h1>Publications</h1>

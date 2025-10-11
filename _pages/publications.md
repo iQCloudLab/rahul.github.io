@@ -125,7 +125,7 @@ body {
 
 <script>
 const SCHOLAR_ID = "kvwUY_MAAAAJ";
-const API_KEY = "d64e9bbc78a9f97cc7c65a305684db31f3bfdb69d4eb35ef9f950f2971c7ad25"; // Get free key from serpapi.com
+const API_KEY = "a8b60dd4c831320a28917e137809fa4e99692cbbf2415da2700e509e609ebdb3"; // Get free key from serpapi.com
 const API_URL = `https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_ID}&api_key=${API_KEY}`;
 
 async function loadPublications() {

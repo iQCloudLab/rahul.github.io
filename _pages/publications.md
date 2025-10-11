@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: 
 title: 
 permalink: /publications/
 author_profile: true
@@ -110,6 +110,7 @@ body {
   margin-right: 6px;
 }
 </style>
+
 <body>
 
 <div class="pub-container">

@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: 
 permalink: /publications/
 author_profile: true
@@ -8,7 +8,7 @@ author_profile: true
 <style>
 
 .container {
-  max-width: 700px;
+  max-width: 800px;
   margin: auto;
   background: #fff;
   border-radius: 16px;

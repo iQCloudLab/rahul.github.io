@@ -262,7 +262,6 @@ redirect_from:
       <div class="announcement-item"><span class="icon">🔬</span> <strong>Launch:</strong> QEdge 2.0 — Adaptive Hybrid Cloud Framework.</div>
       <div class="announcement-item"><span class="icon">🏆</span> <strong>Award:</strong> Recognized for Excellence in Edge-AI Research 2025.</div>
       <div class="announcement-item"><span class="icon">🌐</span> <strong>Collaboration:</strong> Joint Project with European Quantum Network.</div>
-
       <!-- Duplicate for smooth infinite scroll -->
       <div class="announcement-item"><span class="icon">🚀</span> <strong>Publication:</strong> Quantum–Edge Resource Scheduling accepted at IEEE CloudNet 2025.</div>
       <div class="announcement-item"><span class="icon">🧠</span> <strong>Symposium:</strong> “AI for Quantum Networks” — Tokyo, March 2026.</div>
@@ -448,3 +447,107 @@ function openTab(evt, tabId) {
   evt.currentTarget.classList.add("active");
 }
 </script>
+
+
+<!-- === FUTURISTIC FOOTER SECTION === -->
+<style>
+footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(14px);
+  border-top: 1px solid rgba(90, 180, 255, 0.3);
+  box-shadow: 0 -6px 20px rgba(150, 200, 255, 0.3);
+  color: #1a2a3a;
+  padding: 25px 20px;
+  text-align: center;
+  overflow: hidden;
+  z-index: 50;
+}
+
+/* Animated gradient line on top */
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #3a95f2, #5ee6ff, transparent);
+  animation: footerLine 8s linear infinite;
+}
+
+@keyframes footerLine {
+  0% { left: -50%; }
+  100% { left: 50%; }
+}
+
+/* Contact layout */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Glowing icons */
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.footer-item span.icon {
+  font-size: 1.2rem;
+  color: #3a95f2;
+  text-shadow: 0 0 8px rgba(80, 180, 255, 0.7);
+  transition: all 0.3s ease;
+}
+
+.footer-item:hover span.icon {
+  transform: scale(1.1);
+  color: #0078d7;
+}
+
+/* Links */
+.footer-item a {
+  color: #005fa3;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-item a:hover {
+  color: #3a95f2;
+  text-decoration: underline;
+}
+
+/* Footer bottom text */
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: rgba(0,0,0,0.6);
+}
+
+/* Soft glow animation */
+@keyframes glowPulseFooter {
+  0%, 100% { box-shadow: 0 0 10px rgba(90, 180, 255, 0.3); }
+  50% { box-shadow: 0 0 20px rgba(90, 180, 255, 0.55); }
+}
+</style>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-item"><span class="icon">📍</span> Room 402, Quantum Systems Lab, Innovation Building, Tokyo Tech</div>
+    <div class="footer-item"><span class="icon">✉️</span> <a href="mailto:researchlab@tokyotech.ac.jp">researchlab@tokyotech.ac.jp</a></div>
+    <div class="footer-item"><span class="icon">📞</span> +81-3-1234-5678</div>
+  </div>
+  <div class="footer-bottom">
+    © 2025 iQCloudLab — Designed for Next-Gen Computing 🌌
+  </div>
+</footer>
+

@@ -484,10 +484,7 @@ footer .copyright {
 
 <footer>
   <div class="contact-info">
-    📍 Room 402, Quantum Systems Lab, Tokyo Tech<br>
-    ✉️ <a href="mailto:researchlab@tokyotech.ac.jp">researchlab@tokyotech.ac.jp</a> | 📞 +81-3-1234-5678
-  </div>
-  <div class="copyright">
-    © 2025 iQCloudLab. All rights reserved.
-  </div>
+    📍 Room 2123, 21B Building, Harbin Engineering University<br>
+    ✉️ <a href="mailto:rahul@hrbeu.edu.cn">rahul@hrbeu.edu.cn</a> 
+  </div>  
 </footer>

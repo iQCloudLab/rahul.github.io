@@ -277,7 +277,7 @@ redirect_from:
 <style>
 /* === Futuristic Profile Section === */
 .profile-tabs {
-  width: 110%;
+  width: 140%;
   max-width: 1000px;
   margin: 60px auto;
   background: rgba(255, 255, 255, 0.7);

@@ -4,76 +4,65 @@ title:
 permalink: /teaching/
 author_profile: true
 ---
-<!-- === Teaching Section === -->
+
+
 <section class="lab-teaching">
   <h2>📘 Teaching Portfolio</h2>
   <p class="section-subtitle">Courses delivered across Cloud Computing, Edge Intelligence, and Quantum Systems.</p>
 
-  <!-- === Teaching Timeline === -->
-  <div class="teaching-container">
-    <!-- === Semester Card 1 === -->
-    <div class="semester-card">
-      <div class="semester-header">
-        <h3>Spring 2025</h3>
-        <button class="toggle-btn">View Courses ▾</button>
-      </div>
-      <div class="course-list">
-        <div class="course-card">
-          <h4>Cloud and Edge Computing (CSE 510)</h4>
-          <p><strong>Level:</strong> Graduate</p>
-          <p><strong>Description:</strong> Advanced concepts in hybrid cloud-edge systems, microservice orchestration, and intelligent resource allocation.</p>
-        </div>
+  <div class="teaching-timeline">
 
-        <div class="course-card">
-          <h4>Quantum Cloud Infrastructure (CSE 620)</h4>
-          <p><strong>Level:</strong> Graduate</p>
-          <p><strong>Description:</strong> Quantum resource virtualization, distributed quantum-classical computing models, and scheduling frameworks.</p>
-        </div>
+    <!-- === Spring 2025 === -->
+    <div class="semester-block">
+      <h3>Spring 2025</h3>
+
+      <div class="course">
+        <h4>Cloud and Edge Computing (CSE 510)</h4>
+        <p><strong>Level:</strong> Graduate</p>
+        <p><strong>Description:</strong> Advanced concepts in hybrid cloud-edge systems, microservice orchestration, and intelligent resource allocation.</p>
+      </div>
+
+      <div class="course">
+        <h4>Quantum Cloud Infrastructure (CSE 620)</h4>
+        <p><strong>Level:</strong> Graduate</p>
+        <p><strong>Description:</strong> Quantum resource virtualization, distributed quantum-classical computing models, and scheduling frameworks.</p>
       </div>
     </div>
 
-    <!-- === Semester Card 2 === -->
-    <div class="semester-card">
-      <div class="semester-header">
-        <h3>Fall 2024</h3>
-        <button class="toggle-btn">View Courses ▾</button>
-      </div>
-      <div class="course-list">
-        <div class="course-card">
-          <h4>Internet of Things and Smart Systems (CSE 430)</h4>
-          <p><strong>Level:</strong> Undergraduate</p>
-          <p><strong>Description:</strong> Design of IoT architectures, device-to-cloud data pipelines, and edge-based intelligence.</p>
-        </div>
+    <!-- === Fall 2024 === -->
+    <div class="semester-block">
+      <h3>Fall 2024</h3>
 
-        <div class="course-card">
-          <h4>Distributed Systems (CSE 520)</h4>
-          <p><strong>Level:</strong> Graduate</p>
-          <p><strong>Description:</strong> Topics in distributed consensus, resource scheduling, and microservice-based architectures.</p>
-        </div>
+      <div class="course">
+        <h4>Internet of Things and Smart Systems (CSE 430)</h4>
+        <p><strong>Level:</strong> Undergraduate</p>
+        <p><strong>Description:</strong> Design of IoT architectures, device-to-cloud data pipelines, and edge-based intelligence.</p>
+      </div>
+
+      <div class="course">
+        <h4>Distributed Systems (CSE 520)</h4>
+        <p><strong>Level:</strong> Graduate</p>
+        <p><strong>Description:</strong> Topics in distributed consensus, resource scheduling, and microservice-based architectures.</p>
       </div>
     </div>
 
-    <!-- === Semester Card 3 === -->
-    <div class="semester-card">
-      <div class="semester-header">
-        <h3>Spring 2024</h3>
-        <button class="toggle-btn">View Courses ▾</button>
-      </div>
-      <div class="course-list">
-        <div class="course-card">
-          <h4>Data Structures and Algorithms (CSE 210)</h4>
-          <p><strong>Level:</strong> Undergraduate</p>
-          <p><strong>Description:</strong> Foundational algorithms, optimization methods, and computational problem solving.</p>
-        </div>
+    <!-- === Spring 2024 === -->
+    <div class="semester-block">
+      <h3>Spring 2024</h3>
+
+      <div class="course">
+        <h4>Data Structures and Algorithms (CSE 210)</h4>
+        <p><strong>Level:</strong> Undergraduate</p>
+        <p><strong>Description:</strong> Foundational algorithms, optimization methods, and computational problem solving.</p>
       </div>
     </div>
+
   </div>
 </section>
 
-<!-- === CSS === -->
 <style>
 .lab-teaching {
-  padding: 5px ;
+  padding: 60px 20px;
   background: linear-gradient(180deg, #f9fbff 0%, #e8f2ff 100%);
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -91,91 +80,52 @@ author_profile: true
   font-size: 1rem;
 }
 
-.teaching-container {
+.teaching-timeline {
   max-width: 900px;
   margin: 0 auto;
   text-align: left;
 }
 
-.semester-card {
-  background: rgba(255, 255, 255, 0.85);
+.semester-block {
+  background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(120, 190, 255, 0.3);
-  box-shadow: 0 6px 20px rgba(90, 180, 255, 0.25);
   border-radius: 16px;
-  padding: 20px;
-  margin-bottom: 25px;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 20px rgba(90, 180, 255, 0.25);
   transition: all 0.3s ease;
 }
 
-.semester-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
+.semester-block:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(80, 180, 255, 0.35);
 }
 
-.semester-header h3 {
+.semester-block h3 {
   color: #005fa3;
   font-size: 1.4rem;
-}
-
-.toggle-btn {
-  background: linear-gradient(90deg, #5eb8ff, #3a95f2);
-  color: white;
-  border: none;
-  padding: 6px 12px;
-  border-radius: 10px;
-  font-size: 0.9rem;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.toggle-btn:hover {
-  opacity: 0.9;
-  transform: translateY(-2px);
-}
-
-.course-list {
-  margin-top: 15px;
-  display: none;
-  overflow: hidden;
-  animation: fadeIn 0.5s ease;
-}
-
-.course-card {
-  background: rgba(240, 248, 255, 0.9);
-  border: 1px solid rgba(120, 190, 255, 0.3);
-  border-radius: 12px;
-  padding: 15px 20px;
   margin-bottom: 15px;
-  box-shadow: 0 4px 10px rgba(90, 180, 255, 0.2);
-  transition: all 0.3s ease;
+  border-left: 4px solid #5eb8ff;
+  padding-left: 10px;
 }
 
-.course-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 16px rgba(80, 160, 255, 0.35);
+.course {
+  margin-bottom: 18px;
+  padding: 15px;
+  background: rgba(240, 248, 255, 0.9);
+  border-radius: 10px;
+  border: 1px solid rgba(100, 180, 255, 0.25);
 }
 
-.course-card h4 {
+.course h4 {
   color: #004c91;
-  margin-bottom: 6px;
   font-size: 1.1rem;
+  margin-bottom: 6px;
 }
 
-.course-card p {
-  color: #333;
-  font-size: 0.9rem;
+.course p {
   margin: 3px 0;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
+  font-size: 0.9rem;
+  color: #333;
 }
 </style>
-
-<!-- === JS === -->
-<script src="{{ '/assets/js/teaching.js' | relative_url }}"></script>
-
-

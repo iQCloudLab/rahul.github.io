@@ -176,31 +176,6 @@ author_profile: true
 </style>
 
 <!-- === JS === -->
- {% raw %}
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const toggleButtons = document.querySelectorAll(".toggle-btn");
+<script src="{{ '/assets/js/teaching.js' | relative_url }}"></script>
 
-  toggleButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      const courseList = button.closest(".semester-card").querySelector(".course-list");
-      const isVisible = courseList.style.display === "block";
-
-      // Hide all other semesters
-      document.querySelectorAll(".course-list").forEach((list) => list.style.display = "none");
-      document.querySelectorAll(".toggle-btn").forEach((btn) => btn.textContent = "View Courses ▾");
-
-      // Toggle current one
-      if (!isVisible) {
-        courseList.style.display = "block";
-        button.textContent = "Hide Courses ▴";
-      } else {
-        courseList.style.display = "none";
-        button.textContent = "View Courses ▾";
-      }
-    });
-  });
-});
-</script>
-{% endraw %}
 

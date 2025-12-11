@@ -401,11 +401,11 @@ redirect_from:
   <div class="tab-content" id="bio">
     <h3>About Me</h3>
     <p>
-      Dr. <strong>Miao Zhang</strong> is a researcher in the intersection of 
-      <strong>Quantum Computing</strong>, <strong>Edge–Cloud Systems</strong>, 
-      and <strong>AI-driven IoT Infrastructure</strong>.
-      Her research focuses on building scalable and intelligent resource 
-      scheduling frameworks for next-generation distributed networks.
+      <strong>Rahul Yadav</strong> architect the future of intelligent distributed systems. 
+     As an Associate Professor at Harbin Engineering University, I lead research that bridges the physical
+     and digital worlds—pioneering smarter computation offloading, energy-efficient cloud/edge infrastructures, 
+     and next-generation paradigms like Quantum Cloud Computing. My work is focused on one goal: building the seamless, 
+     intelligent computational system that will power everything from smart cities to autonomous vehicles.      
     </p>
   </div>
 

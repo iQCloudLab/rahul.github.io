@@ -8,24 +8,24 @@ permalink: /publications/
 
 <div class="publications-list">
   <div class="publication">
-    <h3>Quantum–Edge Hybrid Resource Management Framework for Smart IoT</h3>
-    <p class="authors">Zhang, M. and Wei, L. and Li, Q.</p>
-    <p class="venue">IEEE Transactions on Cloud Computing, 2025</p>
-    <a href="https://doi.org/10.xxxx/ieee.tcc.2025.001" target="_blank">🔗 View Paper</a>
+    <h3>Data Offloading for Edge-Enabled Smart City Services via Location-Functionality Correlation Analysis</h3>
+    <p class="authors">Qingyang Fan, Weizhe Zhang, Chen Ling, Rahul Yadav, Hui He</p>
+    <p class="venue">IEEE Transactions on Service Computing, 2025</p>
+    <a href="https://doi.org/10.1109/TSC.2025.3623180" target="_blank">🔗 View Paper</a>
   </div>
 
   <div class="publication">
-    <h3>Dynamic Task Offloading in Multi-tier Cloud–Edge–IoT Environments</h3>
-    <p class="authors">Wei, L. and Kumar, A. and Zhang, M.</p>
-    <p class="venue">IEEE Internet of Things Journal, 2024</p>
-    <a href="https://doi.org/10.xxxx/iotj.2024.12345" target="_blank">🔗 View Paper</a>
+    <h3>Federated deep learning for malware detection and data protection in edge-enabled IoMT</h3>
+    <p class="authors">Rahul Yadav, U Kumaran, VP Meena, Li Wei</p>
+    <p class="venue">Cluster Computing, 2025</p>
+    <a href="https://link.springer.com/article/10.1007/s10586-025-05491-x" target="_blank">🔗 View Paper</a>
   </div>
 
   <div class="publication">
-    <h3>Hybrid Quantum-Classical Scheduling Framework for Distributed IoT Networks</h3>
-    <p class="authors">Miao, J. and Zhang, M.</p>
-    <p class="venue">Future Generation Computer Systems, 2023</p>
-    <a href="https://doi.org/10.xxxx/fgcs.2023.6789" target="_blank">🔗 View Paper</a>
+    <h3>Mobility-aware cooperative service caching for mobile augmented reality services in mobile edge computing</h3>
+    <p class="authors">Qingyang Fan, Weizhe Zhang, Chen Ling, Rahul Yadav, Desheng Wang, Hui He</p>
+    <p class="venue">IEEE Transactions on Vehicular Technology, 2024</p>
+    <a href="https://doi.org/10.1109/TVT.2024.3422179" target="_blank">🔗 View Paper</a>
   </div>
 </div>
 

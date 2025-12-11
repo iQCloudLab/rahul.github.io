@@ -31,19 +31,20 @@ redirect_from:
   <h3 class="student-category">🧠 PhD Students</h3>
   <div class="student-grid" id="phdGrid">
     <div class="student-card" data-status="ongoing" data-year="2026">
-      <img src="https://via.placeholder.com/100" alt="Li Wei" class="student-photo">
-      <h3>Li Wei</h3>
+      <img src="https://via.placeholder.com/100" alt="Aleem Raza" class="student-photo">
+      <h3>Aleem Raza</h3>
       <p class="student-level">PhD Candidate</p>
-      <p class="student-topic">AI-driven Quantum Resource Scheduling</p>
+      <p class="student-topic">AI-driven Quantum Cloud Resource Scheduling</p>
       <span class="status ongoing">Ongoing</span>
     </div>
-    <div class="student-card" data-status="completed" data-year="2025">
-      <img src="https://via.placeholder.com/100" alt="Chen Yu" class="student-photo">
-      <h3>Chen Yu</h3>
+    <div class="student-card" data-status="ongoing" data-year="2025">
+      <img src="https://via.placeholder.com/100" alt="Ali" class="student-photo">
+      <h3>Ali</h3>
       <p class="student-level">PhD (2021–2025)</p>
-      <p class="student-topic">Edge Computing for Autonomous IoT</p>
-      <span class="status completed">Graduated 2025</span>
+      <p class="student-topic">Agentic Edge Computing </p>
+      <span class="status ongoing"> Ongoing</span>
     </div>
+    <!--
     <div class="student-card" data-status="ongoing" data-year="2026">
       <img src="https://via.placeholder.com/100" alt="Li Wei" class="student-photo">
       <h3>Li Wei</h3>
@@ -58,7 +59,7 @@ redirect_from:
       <p class="student-topic">Edge Computing for Autonomous IoT</p>
       <span class="status completed">Graduated 2025</span>
     </div>
-
+     -->
   </div>
 
   <!-- === Master Students === -->
@@ -66,18 +67,19 @@ redirect_from:
   <div class="student-grid" id="masterGrid">
     <div class="student-card" data-status="ongoing" data-year="2025">
       <img src="https://via.placeholder.com/100" alt="Hiro Tanaka" class="student-photo">
-      <h3>Hiro Tanaka</h3>
+      <h3>Yicheng Qi</h3>
       <p class="student-level">Master Student</p>
-      <p class="student-topic">LLM-based Scheduling for Quantum Cloud</p>
+      <p class="student-topic">Microservices og Digital Twins in Edge</p>
       <span class="status ongoing">Ongoing</span>
     </div>
-    <div class="student-card" data-status="completed" data-year="2024">
-      <img src="https://via.placeholder.com/100" alt="Wang Mei" class="student-photo">
-      <h3>Wang Mei</h3>
-      <p class="student-level">Master (2022–2024)</p>
-      <p class="student-topic">Federated Edge–Cloud Frameworks</p>
-      <span class="status completed">Graduated 2024</span>
+    <div class="student-card" data-status="ongoing" data-year="2025">
+      <img src="https://via.placeholder.com/100" alt="Yu Runming" class="student-photo">
+      <h3>Yu Runming</h3>
+      <p class="student-level">Master Student</p>
+      <p class="student-topic">Agentic Edge</p>
+      <span class="status ongoing">Ongoing</span>
     </div>
+     <!--
      <div class="student-card" data-status="ongoing" data-year="2025">
       <img src="https://via.placeholder.com/100" alt="Hiro Tanaka" class="student-photo">
       <h3>Hiro Tanaka</h3>
@@ -92,7 +94,7 @@ redirect_from:
       <p class="student-topic">Federated Edge–Cloud Frameworks</p>
       <span class="status completed">Graduated 2024</span>
     </div>
-
+    -->
   </div>
 </section>
 

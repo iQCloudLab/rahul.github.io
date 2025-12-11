@@ -22,8 +22,9 @@ redirect_from:
       <li>Member, IEEE Quantum Computing Community</li>
     </ul>
   </div>
-
+ 
   <!-- === Editorial Roles === -->
+  <!--
   <div class="service-section">
     <h3>📰 Editorial Activities</h3>
     <ul class="service-list">
@@ -32,15 +33,14 @@ redirect_from:
       <li>Editorial Board Member, <em>Journal of Cloud Computing Advances</em> (2022–Present)</li>
     </ul>
   </div>
-
+ -->
   <!-- === Conference & Committee Roles === -->
   <div class="service-section">
     <h3>🎤 Conference & Committee Roles</h3>
     <ul class="service-list">
-      <li>Session Chair, IEEE CLOUD 2025 — “Quantum-Edge Resource Management”</li>
-      <li>Organizing Committee Member, IEEE EdgeCom 2024</li>
-      <li>Program Committee Member, ACM/IEEE Symposium on Edge Computing (SEC) 2023–2025</li>
-      <li>Workshop Organizer, “AI for Quantum Cloud Systems”, IEEE IC2E 2024</li>
+      <li>Session Chair, IEEE TrustCom 2025 </li>
+      <li>Session Chair, IEEE CVPR 2024 </li>
+      <li>Organizing Committee Member, IEEE MSN 2024</li>      
     </ul>
   </div>
 
@@ -51,8 +51,8 @@ redirect_from:
       <li><em>IEEE Transactions on Cloud Computing</em></li>
       <li><em>IEEE Internet of Things Journal</em></li>
       <li><em>ACM Transactions on Internet Technology</em></li>
-      <li><em>Future Generation Computer Systems</em></li>
-      <li><em>Journal of Systems Architecture</em></li>
+      <li><em>IEEE Transactions on Service Computing</em></li>
+      <li><em>IEEE Transactions on Mobile Computing</em></li>
     </ul>
   </div>
 </section>

@@ -257,17 +257,17 @@ redirect_from:
   <div class="announcement-header">✨ Recent iQCloudLab Highlights</div>
   <div class="announcement-content">
     <div class="scroll-area">
-      <div class="announcement-item"><span class="icon">🚀</span> <strong>Publication:</strong> Quantum–Edge Resource Scheduling accepted at IEEE CloudNet 2025.</div>
-      <div class="announcement-item"><span class="icon">🧠</span> <strong>Symposium:</strong> “AI for Quantum Networks” — Tokyo, March 2026.</div>
-      <div class="announcement-item"><span class="icon">🔬</span> <strong>Launch:</strong> QEdge 2.0 — Adaptive Hybrid Cloud Framework.</div>
-      <div class="announcement-item"><span class="icon">🏆</span> <strong>Award:</strong> Recognized for Excellence in Edge-AI Research 2025.</div>
-      <div class="announcement-item"><span class="icon">🌐</span> <strong>Collaboration:</strong> Joint Project with European Quantum Network.</div>
+      <div class="announcement-item"><span class="icon">🚀</span> <strong>Publication:</strong> Federated deep learning for malware detection and data protection in edge-enabled IoMT</div>
+      <div class="announcement-item"><span class="icon">🧠</span> <strong>Publication</strong> Data Offloading for Edge-Enabled Smart City Services via Location-Functionality Correlation Analysis</div>
+      <div class="announcement-item"><span class="icon">🔬</span> <strong>Award:</strong> Rahul Appear Top 2% Worldwide Scientists List</div>
+      <div class="announcement-item"><span class="icon">🏆</span> <strong>Award:</strong> Best Teacher Award</div>
+      <div class="announcement-item"><span class="icon">🌐</span> <strong>Collaboration:</strong> Joint Project with Prof Buyya in Quantum Cloud Computing</div>
       <!-- Duplicate for smooth infinite scroll -->
-      <div class="announcement-item"><span class="icon">🚀</span> <strong>Publication:</strong> Quantum–Edge Resource Scheduling accepted at IEEE CloudNet 2025.</div>
-      <div class="announcement-item"><span class="icon">🧠</span> <strong>Symposium:</strong> “AI for Quantum Networks” — Tokyo, March 2026.</div>
-      <div class="announcement-item"><span class="icon">🔬</span> <strong>Launch:</strong> QEdge 2.0 — Adaptive Hybrid Cloud Framework.</div>
-      <div class="announcement-item"><span class="icon">🏆</span> <strong>Award:</strong> Recognized for Excellence in Edge-AI Research 2025.</div>
-      <div class="announcement-item"><span class="icon">🌐</span> <strong>Collaboration:</strong> Joint Project with European Quantum Network.</div>
+      <div class="announcement-item"><span class="icon">🚀</span> <strong>Publication:</strong> Federated deep learning for malware detection and data protection in edge-enabled IoMT</div>
+      <div class="announcement-item"><span class="icon">🧠</span> <strong>Publication</strong> Data Offloading for Edge-Enabled Smart City Services via Location-Functionality Correlation Analysis</div>
+      <div class="announcement-item"><span class="icon">🔬</span> <strong>Award:</strong> Rahul Appear Top 2% Worldwide Scientists List</div>
+      <div class="announcement-item"><span class="icon">🏆</span> <strong>Award:</strong> Best Teacher Award</div>
+      <div class="announcement-item"><span class="icon">🌐</span> <strong>Collaboration:</strong> Joint Project with Prof Buyya in Quantum Cloud Computing</div>
     </div>
   </div>
 </div>

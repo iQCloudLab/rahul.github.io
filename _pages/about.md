@@ -411,19 +411,18 @@ redirect_from:
 
   <div class="tab-content" id="exp" style="display:none;">
     <h3>Professional Experience</h3>
-    <ul>
-      <li><strong>Lead Researcher</strong> – iQCloudLab, 2024–Present</li>
-      <li><strong>Research Associate</strong> – Smart Edge Computing Lab, 2021–2024</li>
-      <li><strong>Visiting Scholar</strong> – Quantum Systems Network, Tokyo, 2022</li>
+    <ul>      
+      <li><strong>PostDoc</strong> – Peng Cheng Lab, 2021–2022</li>
+      <!-- <li><strong>Visiting Scholar</strong> – Quantum Systems Network, Tokyo, 2022</li> -->
     </ul>
   </div>
 
   <div class="tab-content" id="edu" style="display:none;">
     <h3>Education</h3>
     <ul>
-      <li>Ph.D. in Computer Science – Global Institute of Technology, 2023</li>
-      <li>M.Sc. in Cloud & Edge Systems – University of Technology, 2020</li>
-      <li>B.Sc. in Information Engineering – Tech University, 2018</li>
+      <li>Ph.D. in Computer Science – Harbin Institute of Technology, 2020</li>
+      <li>M.Sc. in Computer Science – South Asian University, 2015</li>
+      <li>B.Sc. in Computer Application – Kanpur University, 2011</li>
     </ul>
   </div>
 

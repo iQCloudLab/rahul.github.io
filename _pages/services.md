@@ -29,8 +29,7 @@ redirect_from:
     <h3>📰 Editorial Activities</h3>
     <ul class="service-list">
       <li>Associate Editor, <em>The International Journal of AI and Cybersecurity in Healthcare </em> (2026–Present)</li>
-      <li>Guest Editor, <em> Wireless Communications and Mobile Computing (Wiley)</em>, Special Issue on “ Mobile Edge Computing” (2020)</li>
-      <li>Editorial Board Member, <em>Journal of Cloud Computing Advances</em> (2022–Present)</li>
+      <li>Guest Editor, <em> Wireless Communications and Mobile Computing (Wiley)</em>, Special Issue on “ Mobile Edge Computing” (2020)</li>      
     </ul>
   </div>
  

@@ -24,21 +24,23 @@ redirect_from:
   </div>
  
   <!-- === Editorial Roles === -->
-  <!--
+  
   <div class="service-section">
     <h3>📰 Editorial Activities</h3>
     <ul class="service-list">
-      <li>Associate Editor, <em>IEEE Internet of Things Journal</em> (2023–Present)</li>
-      <li>Guest Editor, <em>Future Generation Computer Systems</em>, Special Issue on “Hybrid Edge–Quantum Systems” (2024)</li>
+      <li>Associate Editor, <em>The International Journal of AI and Cybersecurity in Healthcare </em> (2026–Present)</li>
+      <li>Guest Editor, <em> Wireless Communications and Mobile Computing (Wiley)</em>, Special Issue on “ Mobile Edge Computing” (2020)</li>
       <li>Editorial Board Member, <em>Journal of Cloud Computing Advances</em> (2022–Present)</li>
     </ul>
   </div>
- -->
+ 
   <!-- === Conference & Committee Roles === -->
   <div class="service-section">
     <h3>🎤 Conference & Committee Roles</h3>
     <ul class="service-list">
+    <li>Organizing Committee Member, ISCOA 2026</li>    
       <li>Session Chair, IEEE TrustCom 2025 </li>
+      <li>Session Chair, IEEE ICASSP 2025 </li>
       <li>Session Chair, IEEE CVPR 2024 </li>
       <li>Organizing Committee Member, IEEE MSN 2024</li>      
     </ul>

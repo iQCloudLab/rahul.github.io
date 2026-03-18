@@ -18,8 +18,8 @@ redirect_from:
     <ul class="service-list">
       <li>Senior Member, IEEE (Institute of Electrical and Electronics Engineers)</li>
       <li>Member, ACM (Association for Computing Machinery)</li>
-      <li>Member, IEEE Cloud Computing Technical Committee</li>
-      <li>Member, IEEE Quantum Computing Community</li>
+      <li>Member, CCF (China Computer Federation)</li>
+      <li>Member, IEEE Cloud Computing Technical Committee</li>      
     </ul>
   </div>
  

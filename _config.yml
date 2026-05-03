@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rahul Yadav"
-title_separator          : "-"
+title                    : "Prof. Rahul Yadav | Quantum Cloud Computing & Distributed Systems Researcher"
+title_separator          : "|"
 name                     : "Rahul Yadav"
-description              : "personal_description"
+description              : "Associate Professor at Harbin Engineering University specializing in Quantum Cloud Computing, Agentic Edge Computing, Distributed Systems, and Digital Twins. Senior Member of IEEE (SMIEEE)."
 url                      : https://iqcloudlab.github.io/rahul.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "iqcloudlab/rahul.github.io"
@@ -50,8 +50,8 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
+google_site_verification : "your-google-verification-code"
+bing_site_verification   : "your-bing-verification-code"
 alexa_site_verification  :
 yandex_site_verification :
 
@@ -66,9 +66,14 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Prof. Rahul Yadav"
+  links: 
+    - "https://scholar.google.com/citations?hl=en&user=kvwUY_MAAAAJ"
+    - "https://orcid.org/my-orcid?orcid=0000-0001-7514-4517"
+    - "https://www.linkedin.com/in/yaduvanshi/"
+    - "https://github.com/iQCloudLab"
+    - "https://www.researchgate.net/profile/Rahul-Yadav-10"
 
 
 # Analytics

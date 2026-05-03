@@ -1,266 +1,458 @@
 ---
 layout: archive
-title: 
+title: "Contact & Lab"
 permalink: /contacts/
 author_profile: true
+excerpt: "Contact information for Prof. Rahul Yadav and iQCloudLab - Intelligent Quantum Cloud Computing Laboratory at Harbin Engineering University"
 ---
 
-
 <style>
-/* === Base === */
+/* === Contact Page Styles === */
 
-
-/* === Floating Logo === */
-
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-}
-
-/* === Header === */
-header {
-  text-align: center;
-  padding: 20px;
-  background: linear-gradient(90deg, #5eb8ff, #3a95f2, #5ee6ff);
+/* Header Section */
+.contact-header {
+  background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 50%, #4a6fa5 100%);
   color: white;
+  padding: 70px 40px;
+  border-radius: 16px;
+  margin: 30px 20px 50px 20px;
+  text-align: center;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);
   position: relative;
   overflow: hidden;
-  box-shadow: 0 6px 25px rgba(150, 200, 255, 0.35);
 }
-header::before {
-  content: "";
+
+.contact-header::before {
+  content: '';
   position: absolute;
-  top: 0; left: -50%;
-  width: 200%; height: 100%;
-  background: linear-gradient(90deg, rgba(255,255,255,0.25), transparent, rgba(255,255,255,0.25));
-  animation: moveLight 7s linear infinite;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 30% 50%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
+              radial-gradient(circle at 70% 50%, rgba(139, 92, 246, 0.3) 0%, transparent 50%);
+  opacity: 0.6;
 }
-@keyframes moveLight {
-  0% { left: -50%; }
-  100% { left: 100%; }
-}
-header h1 {
+
+.contact-header h1 {
+  color: white;
   font-size: 2.8rem;
-  letter-spacing: 1.5px;
-  margin-bottom: 10px;
-}
-header p {
-  font-size: 1.1rem;
-  opacity: 0.95;
-}
-
-/* === Mission === */
-.mission {
-  max-width: 850px;
-  margin: 60px auto;
-  background: rgba(255,255,255,0.85);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  padding: 40px 45px;
-  text-align: center;
-  border: 1px solid rgba(90,180,255,0.25);
-  box-shadow: 0 8px 25px rgba(90,180,255,0.15);
-  animation: glowPulse 6s ease-in-out infinite;
-}
-@keyframes glowPulse {
-  0%, 100% { box-shadow: 0 0 18px rgba(90,180,255,0.2); }
-  50% { box-shadow: 0 0 30px rgba(90,180,255,0.4); }
-}
-.mission h2 {
-  color: #004c91;
   margin-bottom: 15px;
-}
-.mission p {
-  color: #2a2a3a;
-  line-height: 1.7;
-  font-size: 1rem;
+  position: relative;
+  z-index: 1;
+  font-weight: 800;
 }
 
-/* === Research Focus === */
-.focus-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 25px;
-  max-width: 1000px;
-  margin: 70px auto;
-  padding: 0 25px;
-}
-.focus-card {
-  background: rgba(255,255,255,0.8);
-  border: 1px solid rgba(120,180,255,0.35);
-  border-radius: 16px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 6px 20px rgba(150,200,255,0.2);
-  transition: 0.3s;
-}
-.focus-card:hover {
-  transform: translateY(-5px);
-  background: rgba(240,248,255,0.95);
-  box-shadow: 0 10px 25px rgba(120,190,255,0.4);
-}
-.focus-card .icon {
-  font-size: 2rem;
-  color: #3a95f2;
-  margin-bottom: 10px;
-}
-.focus-card h3 {
-  color: #005fa3;
-  margin-bottom: 8px;
-}
-.focus-card p {
-  color: #333;
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
-/* === Research Outputs === */
-.outputs {
-  max-width: 1000px;
-  margin: 80px auto;
-  padding: 0 20px;
-  text-align: center;
-}
-.outputs h2 {
-  color: #004c91;
-  margin-bottom: 25px;
-}
-.output-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
+.contact-header p {
+  color: rgba(255,255,255,0.95);
+  font-size: 1.2rem;
   max-width: 700px;
-  text-align: left;
-}
-.output-list li {
-  margin: 12px 0;
-  background: rgba(255,255,255,0.8);
-  padding: 12px 15px;
-  border-radius: 8px;
-  border-left: 4px solid #3a95f2;
-  box-shadow: 0 4px 10px rgba(150,200,255,0.15);
-  transition: 0.2s;
-}
-.output-list li:hover {
-  background: rgba(240,248,255,0.95);
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  line-height: 1.7;
 }
 
-/* === Footer === */
-footer {
-  margin-top: 80px;
-  background: #f0f6ff;
-  border-top: 1px solid #d0e3ff;
-  text-align: center;
-  padding: 22px 12px;
-  color: #333;
-  font-size: 0.9rem;
-  line-height: 1.6;
+/* Contact Grid */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto 60px auto;
+  padding: 0 20px;
 }
-footer a {
-  color: #0078d7;
+
+.contact-card {
+  background: white;
+  border-radius: 16px;
+  padding: 35px 30px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  border: 1px solid #e2e8f0;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  transform: scaleX(0);
+  transition: transform 0.4s ease;
+}
+
+.contact-card:hover::before {
+  transform: scaleX(1);
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.12);
+}
+
+.contact-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.contact-card h3 {
+  color: #1e3a5f;
+  font-size: 1.35rem;
+  margin: 0 0 20px 0;
+  font-weight: 700;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f1f5f9;
+}
+
+.contact-info {
+  color: #475569;
+  line-height: 1.8;
+  font-size: 0.98rem;
+}
+
+.contact-info p {
+  margin: 12px 0;
+}
+
+.contact-info strong {
+  color: #1e3a5f;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.contact-info a {
+  color: #3b82f6;
   text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 600;
 }
-footer a:hover {
+
+.contact-info a:hover {
+  color: #8b5cf6;
   text-decoration: underline;
 }
-</style>
 
+/* Social Links */
+.social-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px dashed #e2e8f0;
+}
 
-<body>
-
-
-
-<header>
-  <h1>🌐 iQCloudLab</h1>
-  <p>Intelligent Quantum Cloud and Distributed Computing Lab</p>
-</header>
-
-<section class="mission">
-  <h2>Our Vision</h2>
-  <p>
-    <strong>iQCloudLab</strong> pioneers the integration of <b>Quantum Cloud</b>, <b>Edge Computing</b>, 
-    and <b>AI-driven IoT systems</b> to build adaptive and efficient computing ecosystems.  
-    We aim to reshape the future of distributed intelligence through data-driven scheduling and hybrid orchestration.
-  </p>
-</section>
-
-<section class="focus-grid">
-  <div class="focus-card">
-    <span class="icon">☁️</span>
-    <h3>Cloud Frameworks</h3>
-    <p>Developing scalable hybrid cloud systems to ensure high efficiency and resilience.</p>
-  </div>
-  <div class="focus-card">
-    <span class="icon">⚛️</span>
-    <h3>Quantum Integration</h3>
-    <p>Exploring quantum-classical collaboration for optimization and decision support.</p>
-  </div>
-  <div class="focus-card">
-    <span class="icon">🌐</span>
-    <h3>Edge Intelligence</h3>
-    <p>Empowering real-time data analysis and response through near-device computation.</p>
-  </div>
-  <div class="focus-card">
-    <span class="icon">🤖</span>
-    <h3>AI Scheduling</h3>
-    <p>Designing AI models to orchestrate dynamic resource management across layers.</p>
-  </div>
-</section>
-
-<section class="outputs">
-  <h2>Recent Research Outputs</h2>
-  <ul class="output-list">
-    <li>
-      <a href="https://doi.org/10.xxxx/ieee.tcc.2025.001" target="_blank">
-        <b>Quantum-Aware Resource Scheduling</b> – IEEE Transactions on Cloud Computing, 2025
-      </a>
-    </li>
-    <li>
-      <a href="https://doi.org/10.xxxx/iotj.2024.12345" target="_blank">
-        <b>Edge-Enabled IoT Orchestration</b> – Journal of Internet of Things Research, 2024
-      </a>
-    </li>
-    <li>
-      <a href="https://doi.org/10.xxxx/acmcs.2023.5678" target="_blank">
-        <b>AI-driven Cloud Optimization</b> – ACM Computing Surveys, 2023
-      </a>
-    </li>
-    <li>
-      <a href="https://doi.org/10.xxxx/fgcs.2025.9012" target="_blank">
-        <b>Federated Quantum-Edge Framework</b> – Future Generation Computer Systems, 2025
-      </a>
-    </li>
-  </ul>
-</section>
-
-<style>
-.output-list li a {
-  display: block;
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  background: linear-gradient(135deg, #eff6ff, #dbeafe);
+  color: #1e40af;
+  border-radius: 25px;
   text-decoration: none;
-  color: #1a2a3a;
-  background: rgba(255,255,255,0.8);
-  padding: 12px 15px;
-  border-radius: 8px;
-  border-left: 4px solid #3a95f2;
-  box-shadow: 0 4px 10px rgba(150,200,255,0.15);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 1px solid #bfdbfe;
+}
+
+.social-link:hover {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(59, 130, 246, 0.3);
+}
+
+/* Lab Section */
+.lab-section {
+  max-width: 1100px;
+  margin: 0 auto 60px auto;
+  padding: 0 20px;
+}
+
+.lab-banner {
+  background: linear-gradient(135deg, #f0f7ff 0%, #e8f5e9 100%);
+  border-radius: 16px;
+  padding: 50px 40px;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.lab-banner h2 {
+  color: #1e3a5f;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+.lab-banner .subtitle {
+  color: #64748b;
+  font-size: 1.1rem;
+  margin-bottom: 35px;
+  font-style: italic;
+}
+
+.lab-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.lab-feature {
+  background: white;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
   transition: all 0.3s ease;
 }
-.output-list li a:hover {
-  background: rgba(240,248,255,0.95);
-  border-left-color: #5eb8ff;
-  transform: translateX(6px);
-  box-shadow: 0 6px 18px rgba(80,180,255,0.3);
+
+.lab-feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.lab-feature .icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.lab-feature h4 {
+  color: #1e3a5f;
+  font-size: 1.1rem;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+
+.lab-feature p {
+  color: #64748b;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Map Section */
+.map-section {
+  max-width: 1100px;
+  margin: 0 auto 60px auto;
+  padding: 0 20px;
+}
+
+.map-container {
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.map-container h3 {
+  color: #1e3a5f;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.location-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  align-items: center;
+}
+
+.location-info {
+  padding: 20px;
+}
+
+.location-info p {
+  color: #475569;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin: 15px 0;
+}
+
+.location-info strong {
+  color: #1e3a5f;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-header {
+    padding: 50px 25px;
+    margin: 20px 15px 40px 15px;
+  }
+  
+  .contact-header h1 {
+    font-size: 2rem;
+  }
+  
+  .contact-header p {
+    font-size: 1rem;
+  }
+  
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .contact-card {
+    padding: 28px 22px;
+  }
+  
+  .lab-banner {
+    padding: 35px 25px;
+  }
+  
+  .lab-banner h2 {
+    font-size: 1.7rem;
+  }
+  
+  .lab-features {
+    grid-template-columns: 1fr;
+  }
+  
+  .map-container {
+    padding: 25px 20px;
+  }
+  
+  .location-details {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
+<div class="contact-header">
+  <h1>📬 Get In Touch</h1>
+  <p>Interested in collaboration, research opportunities, or have questions about our work? Feel free to reach out!</p>
+</div>
 
-<footer>
-  📍 Room 402, iQCloudLab, Tokyo Institute of Technology <br>
-  ✉️ <a href="mailto:iqcloudlab@tokyotech.ac.jp">iqcloudlab@tokyotech.ac.jp</a> | 🌐 <a href="#">www.iqcloudlab.jp</a> <br>
-  © 2025 iQCloudLab. All Rights Reserved.
-</footer>
+<div class="contact-grid">
+  
+  <!-- Contact Card 1: Direct Contact -->
+  <div class="contact-card">
+    <span class="contact-icon">✉️</span>
+    <h3>Contact Information</h3>
+    <div class="contact-info">
+      <p><strong>Email:</strong><a href="mailto:rahul@hrbeu.edu.cn">rahul@hrbeu.edu.cn</a></p>
+      <p><strong>Office:</strong>Room 2123, 21B Building<br>Harbin Engineering University<br>Harbin, Heilongjiang, China</p>
+      <p><strong>Response Time:</strong>Usually within 24-48 hours</p>
+    </div>
+  </div>
 
-</body>
+  <!-- Contact Card 2: Academic Profiles -->
+  <div class="contact-card">
+    <span class="contact-icon">🎓</span>
+    <h3>Academic Profiles</h3>
+    <div class="contact-info">
+      <p>Connect with me on academic platforms:</p>
+      <div class="social-links">
+        <a href="https://scholar.google.com/citations?hl=en&user=kvwUY_MAAAAJ" target="_blank" class="social-link">
+          🔍 Google Scholar
+        </a>
+        <a href="https://orcid.org/my-orcid?orcid=0000-0001-7514-4517" target="_blank" class="social-link">
+          🆔 ORCID
+        </a>
+        <a href="https://www.researchgate.net/profile/Rahul-Yadav-10" target="_blank" class="social-link">
+          📖 ResearchGate
+        </a>
+        <a href="https://www.linkedin.com/in/yaduvanshi/" target="_blank" class="social-link">
+          💼 LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Card 3: For Students -->
+  <div class="contact-card">
+    <span class="contact-icon">🎓</span>
+    <h3>Prospective Students</h3>
+    <div class="contact-info">
+      <p>I am actively seeking motivated PhD and Master's students to join iQCloudLab.</p>
+      <p><strong>Research Areas:</strong></p>
+      <ul style="color: #64748b; font-size: 0.92rem; line-height: 1.8; padding-left: 20px;">
+        <li>Quantum Cloud Computing</li>
+        <li>Agentic Edge Intelligence</li>
+        <li>Distributed Systems</li>
+        <li>Digital Twins</li>
+      </ul>
+      <p style="margin-top: 15px;"><a href="mailto:rahul@hrbeu.edu.cn?subject=Prospective Student Inquiry" style="font-weight: 600;">📧 Send Inquiry</a></p>
+    </div>
+  </div>
+
+</div>
+
+<!-- Lab Section -->
+<div class="lab-section">
+  <div class="lab-banner">
+    <h2>🌐 iQCloudLab</h2>
+    <p class="subtitle">Intelligent Quantum Cloud and Distributed Computing Laboratory</p>
+    
+    <p style="color: #475569; font-size: 1.05rem; line-height: 1.8; max-width: 800px; margin: 0 auto 30px auto;">
+      iQCloudLab pioneers the integration of <strong>Quantum Cloud</strong>, <strong>Edge Computing</strong>, 
+      and <strong>AI-driven IoT systems</strong> to build adaptive and efficient computing ecosystems.  
+      We aim to reshape the future of distributed intelligence through data-driven scheduling and hybrid orchestration.
+    </p>
+    
+    <div class="lab-features">
+      <div class="lab-feature">
+        <span class="icon">☁️</span>
+        <h4>Cloud Frameworks</h4>
+        <p>Developing scalable hybrid cloud systems to ensure high efficiency and resilience.</p>
+      </div>
+      <div class="lab-feature">
+        <span class="icon">⚛️</span>
+        <h4>Quantum Integration</h4>
+        <p>Exploring quantum-classical collaboration for optimization and decision support.</p>
+      </div>
+      <div class="lab-feature">
+        <span class="icon">🌐</span>
+        <h4>Edge Intelligence</h4>
+        <p>Empowering real-time data analysis and response through near-device computation.</p>
+      </div>
+      <div class="lab-feature">
+        <span class="icon">🤖</span>
+        <h4>AI Scheduling</h4>
+        <p>Designing AI models to orchestrate dynamic resource management across layers.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Location Section -->
+<div class="map-section">
+  <div class="map-container">
+    <h3>📍 Visit Us</h3>
+    <div class="location-details">
+      <div class="location-info">
+        <p><strong>Harbin Engineering University</strong><br>
+        Room 2123, 21B Building<br>
+        145 Nantong Street, Nangang District<br>
+        Harbin, Heilongjiang Province<br>
+        China, 150001</p>
+        
+        <p><strong>Getting Here:</strong><br>
+        Harbin is accessible via Harbin Taiping International Airport (HRB) and multiple high-speed rail connections from major Chinese cities.</p>
+        
+        <p><strong>Time Zone:</strong><br>China Standard Time (CST, UTC+8)</p>
+      </div>
+      <div style="text-align: center;">
+        <img src="/images/hrbeu-campus.jpg" alt="Harbin Engineering University Campus" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" onerror="this.style.display='none'">
+        <p style="color: #94a3b8; font-size: 0.9rem; margin-top: 15px; font-style: italic;">Harbin Engineering University Campus</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 

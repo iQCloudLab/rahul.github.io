@@ -1,27 +1,22 @@
 # main links links
 main:
   - title: "Home"
-    url: /about/    
-
-  - title: "iQCloudLab"
-    url: /contacts/
-
+    url: /
+    
+  - title: "About"
+    url: /about-page/
+  
+  - title: "Research"
+    url: /research-page/
+    
   - title: "Publications"
-    url: /publications/  
-
-  - title: "Projects"
-    url: /research/  
-    
+    url: /publications/
+  
   - title: "Teaching"
-    url: /teaching/
-        
-  - title: "Achievements"
-    url: /awards/
+    url: /teaching-page/
     
-  - title: "Services"
-    url: /services/
+  - title: "Join iQCloudLab"
+    url: /join-lab/
     
-  - title: "Students"
-    url: /students/
-
- 
+  - title: "Contact"
+    url: /contact/
